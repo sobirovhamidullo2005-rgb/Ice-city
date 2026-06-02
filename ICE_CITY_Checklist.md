@@ -1,157 +1,93 @@
-# ICE CITY — Ilova Tekshiruv Cheklisti (QA Checklist)
+# ICE CITY — Login & Onboarding Test Cases
 
-> **Ilova:** ICE CITY  
-> **Jarayon:** Foydalanuvchi onboarding flow (4 ta bog'liq ekran)  
-> **Ekranlar ketma-ketligi:** Ekran 1 → Ekran 2 → Ekran 3 → Ekran 4
-
----
-
-## 📱 EKRAN 1: Telefon raqam kiritish (Login)
-
-| Title | Sub model | Description | Priority | Bugs | Bug type | Status | Notes |
-|-------|-----------|-------------|----------|------|----------|--------|-------|
-| Til tanlash — Russki | Login ekrani | "Русский" tugmasi bosilganda til rus tiliga o'tishi kerak | High | — | — | — | Til o'zgarishi barcha matnlarga ta'sir qilishi shart |
-| Til tanlash — O'zbek tili | Login ekrani | "O'zbek tili" tugmasi bosilganda til o'zbek tiliga o'tishi kerak | High | — | — | — | Default til o'zbek bo'lishi kerak |
-| Til tugmalari ko'rinishi | Login ekrani | Ikki tugma (bayroq + nom) to'g'ri ko'rinishi, faol til ajralib turishi | Medium | — | — | — | Faol til oq fonda, nofaol kulrang |
-| Sarlavha matni | Login ekrani | "Xush kelibsiz!" matni to'g'ri til va shriftda ko'rinishi | Medium | — | — | — | — |
-| Tavsif matni | Login ekrani | "Tizimga kirish uchun telefon raqamingizni kiriting" matni to'g'ri ko'rinishi | Medium | — | — | — | — |
-| Telefon raqam maydoni | Login ekrani | "+998 __ __ __ __" placeholder to'g'ri formatda ko'rinishi | High | — | — | — | Faqat raqam kiritilishi kerak |
-| Raqam kiritish — to'g'ri format | Login ekrani | +998 dan keyin 9 ta raqam kiritilganda format to'g'ri bo'lishi | High | — | — | — | Misol: +998 90 123 45 67 |
-| Raqam kiritish — noto'g'ri format | Login ekrani | 9 tadan kam raqam kiritilganda xato xabari ko'rinishi | High | — | — | — | Xato xabari aniq va tushunarli bo'lsin |
-| Raqam kiritish — harf kiritish | Login ekrani | Harflar kiritilganda qabul qilinmasligi kerak | High | — | — | — | Faqat raqam klaviaturasi chiqishi shart |
-| "Davom etish" tugmasi — faol holat | Login ekrani | Raqam to'liq kiritilganda tugma faollashishi (ko'k rang) | High | — | — | — | — |
-| "Davom etish" tugmasi — nofaol holat | Login ekrani | Raqam kiritilmagan yoki to'liq bo'lmasa tugma bosilmasligi | High | — | — | — | Tugma kulrang bo'lishi kerak |
-| "Davom etish" tugmasi — bosilganda | Login ekrani | Tugma bosilganda Ekran 2 (SMS tasdiqlash) ga o'tishi | Critical | — | — | — | Navigatsiya to'g'ri ishlashi shart |
-| Klaviatura chiqishi | Login ekrani | Telefon maydoni bosilganda raqamli klaviatura avtomatik chiqishi | Medium | — | — | — | — |
-| Ekran joylashuvi | Login ekrani | Barcha elementlar ekranda to'g'ri joylashgan, kesib chiqmagan | Low | — | — | — | Turli ekran o'lchamlarida tekshirish |
+**Ilova:** ICE CITY  
+**Versiya:** 1.0.10  
+**Test qurilmasi:** Samsung Galaxy A31 | Android 11  
+**Ekranlar:** Ekran 1 (Login) → Ekran 2 (SMS OTP) → Ekran 3 (Ro'yxatdan o'tish) → Ekran 4 (Virtual karta)
 
 ---
 
-## 📱 EKRAN 2: SMS tasdiqlash (OTP)
+## 📱 EKRAN 1 — Telefon raqam kiritish (Login)
 
-> ⚠️ **Bog'liqlik:** Ekran 1 dan telefon raqam kiritib "Davom etish" bosilgandan keyin ochiladi
+| Test case ID | Sub model | Description | Priority | Pre-condition | Test steps | Test steps Result | Test data | Expected result | Actual result | Status | Environment | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| P-Lo-1 | Login | Login sahifasidagi barcha elementlar to'liq yuklanishi | High | Internet yaxshi ishlashi kerak | 1) ICE CITY ilovasini oching | 1) Login sahifasi ochiladi: til tanlash, sarlavha, telefon maydoni, "Davom etish" tugmasi ko'rinadi | — | Login sahifasidagi barcha elementlar to'liq ko'rinishi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | — |
+| P-Lo-2 | Login | Til tanlash — O'zbek tili ishlashi | High | Internet yaxshi ishlashi kerak | 1) ICE CITY ilovasini oching 2) "O'zbek tili" tugmasini bosing | 1) Login sahifasi ochiladi 2) Til o'zbek tiliga o'tadi, barcha matnlar o'zbekchaga o'zgaradi | — | Barcha matnlar o'zbek tiliga o'zgarishi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | Default til o'zbek bo'lishi kerak |
+| P-Lo-3 | Login | Til tanlash — Russki ishlashi | High | Internet yaxshi ishlashi kerak | 1) ICE CITY ilovasini oching 2) "Русский" tugmasini bosing | 1) Login sahifasi ochiladi 2) Til rus tiliga o'tadi, barcha matnlar ruscha bo'ladi | — | Barcha matnlar rus tiliga o'zgarishi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | — |
+| P-Lo-4 | Login | Telefon raqam maydoni to'g'ri formatda ko'rinishi | High | Internet yaxshi ishlashi kerak | 1) ICE CITY ilovasini oching 2) Telefon raqam maydoniga e'tibor bering | 1) Login sahifasi ochiladi 2) "+998 __ __ __ __" formatida placeholder ko'rinadi | — | "+998 __ __ __ __" placeholder to'g'ri ko'rinishi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | — |
+| P-Lo-5 | Login | Telefon maydoniga bosish — raqamli klaviatura chiqishi | Medium | Internet yaxshi ishlashi kerak | 1) ICE CITY ilovasini oching 2) Telefon raqam maydoniga bosing | 1) Login sahifasi ochiladi 2) Raqamli klaviatura ekranda paydo bo'ladi | — | Raqamli klaviatura avtomatik chiqishi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | — |
+| P-Lo-6 | Login | To'liq raqam kiritilganda "Davom etish" tugmasi faollashishi | High | Internet yaxshi ishlashi kerak | 1) ICE CITY ilovasini oching 2) +998 90 123 45 67 raqamini kiriting | 1) Login sahifasi ochiladi 2) "Davom etish" tugmasi ko'k rangga o'tib faollashadi | +998 90 123 45 67 | "Davom etish" tugmasi faol (ko'k rang) bo'lishi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | — |
+| N-Lo-7 | Login | Raqam kiritilmagan holatda "Davom etish" tugmasi nofaol bo'lishi | High | Internet yaxshi ishlashi kerak | 1) ICE CITY ilovasini oching 2) Telefon maydonini bo'sh qoldiring 3) "Davom etish" tugmasini bosing | 1) Login sahifasi ochiladi 2) Maydon bo'sh 3) Tugma bosilmaydi | — | "Davom etish" tugmasi nofaol (kulrang) bo'lishi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | — |
+| N-Lo-8 | Login | 9 tadan kam raqam kiritilganda xato xabari ko'rinishi | High | Internet yaxshi ishlashi kerak | 1) ICE CITY ilovasini oching 2) +998 90 123 raqamini kiriting 3) "Davom etish" tugmasini bosing | 1) Login sahifasi ochiladi 2) Qisman raqam kiritiladi 3) Xato xabari chiqadi | +998 90 123 | Noto'g'ri format haqida xato xabari ko'rinishi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | — |
+| N-Lo-9 | Login | Telefon maydoniga harf kiritib bo'lmasligi | High | Internet yaxshi ishlashi kerak | 1) ICE CITY ilovasini oching 2) Telefon maydoniga harflar kiritishga urinib ko'ring | 1) Login sahifasi ochiladi 2) Harflar qabul qilinmaydi, faqat raqam klaviaturasi chiqadi | abc | Harflar qabul qilinmasligi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | — |
+| P-Lo-10 | Login | To'g'ri raqam kiritib "Davom etish" bosilganda SMS ekraniga o'tish | Critical | Internet yaxshi ishlashi kerak | 1) ICE CITY ilovasini oching 2) +998 90 123 45 67 kiriting 3) "Davom etish" tugmasini bosing | 1) Login sahifasi ochiladi 2) Raqam kiritiladi 3) SMS tasdiqlash ekrani ochiladi | +998 90 123 45 67 | SMS tasdiqlash ekraniga o'tishi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | — |
 
-| Title | Sub model | Description | Priority | Bugs | Bug type | Status | Notes |
-|-------|-----------|-------------|----------|------|----------|--------|-------|
-| Orqaga qaytish tugmasi | SMS tasdiqlash | "‹" tugmasi bosilganda Ekran 1 ga qaytishi | High | — | — | — | Kiritilgan raqam saqlanib qolishi kerak |
-| Sarlavha matni | SMS tasdiqlash | "SMS tasdiqlash" matni to'g'ri ko'rinishi | Medium | — | — | — | — |
-| Telefon raqam ko'rsatilishi | SMS tasdiqlash | "4 xonali kod yuborildi +99877 ***66" formatida raqam ko'rinishi | High | — | — | — | Raqam oxirgi 2 ta raqamdan tashqari yashirilgan bo'lishi shart |
-| 4 ta OTP maydon | SMS tasdiqlash | 4 ta alohida maydon ko'rinishi va ishlashi | High | — | — | — | Har bir maydon 1 ta raqam qabul qiladi |
-| OTP kiritish — avtomatik o'tish | SMS tasdiqlash | Har bir maydonga raqam kiritilganda keyingi maydonga avtomatik o'tishi | High | — | — | — | — |
-| OTP kiritish — faqat raqam | SMS tasdiqlash | Harflar va belgilar qabul qilinmasligi | High | — | — | — | — |
-| OTP kiritish — o'chirish (backspace) | SMS tasdiqlash | Backspace bosilganda oldingi maydonga qaytishi | Medium | — | — | — | — |
-| OTP — to'g'ri kod | SMS tasdiqlash | To'g'ri 4 xonali kod kiritilganda Ekran 3 ga o'tishi | Critical | — | — | — | Navigatsiya to'g'ri ishlashi shart |
-| OTP — noto'g'ri kod | SMS tasdiqlash | Noto'g'ri kod kiritilganda xato xabari ko'rinishi | High | — | — | — | Xato xabari aniq bo'lsin |
-| Qayta yuborish — hisoblagich | SMS tasdiqlash | "Qayta yuborish: 56 sek" hisoblagichi ortga sanashi | High | — | — | — | 0 ga yetganda tugma faollashishi kerak |
-| Qayta yuborish — tugma nofaol | SMS tasdiqlash | Hisoblagich 0 bo'lmasa tugma bosilmasligi | Medium | — | — | — | — |
-| Qayta yuborish — tugma faol | SMS tasdiqlash | 0 ga yetganda "Qayta yuborish" tugmasi bosiladigan bo'lishi | Medium | — | — | — | — |
-| Qayta yuborish — SMS kelishi | SMS tasdiqlash | Tugma bosilganda yangi SMS yuborilishi va hisoblagich qayta boshlanishi | High | — | — | — | — |
-| "Davom etish" tugmasi — 4 raqam kiritilganda | SMS tasdiqlash | 4 ta raqam to'liq kiritilganda tugma faollashishi | High | — | — | — | — |
-| "Davom etish" tugmasi — bosilganda | SMS tasdiqlash | Tugma bosilganda Ekran 3 ga o'tishi (agar kod to'g'ri) | Critical | — | — | — | — |
-| SMS kelmasa | SMS tasdiqlash | Uzoq kutishda yoki xato raqamda foydalanuvchiga yo'riqnoma ko'rinishi | Medium | — | — | — | — |
 
 ---
 
-## 📱 EKRAN 3: Ro'yxatdan o'tish (Profil)
+## 📱 EKRAN 2 — SMS tasdiqlash (OTP)
 
-> ⚠️ **Bog'liqlik:** Ekran 2 da OTP tasdiqlangandan keyin ochiladi
+| Test case ID | Sub model | Description | Priority | Pre-condition | Test steps | Test steps Result | Test data | Expected result | Actual result | Status | Environment | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| P-Sm-1 | SMS tasdiqlash | SMS tasdiqlash sahifasidagi barcha elementlar to'liq yuklanishi | High | Foydalanuvchi login ekranida telefon raqamini kiritgan bo'lishi va internet yaxshi ishlashi | 1) ICE CITY ilovasini oching 2) Login ekranida raqam kiriting 3) "Davom etish" bosing | 1) Login sahifasi ochiladi 2) Raqam kiritiladi 3) SMS tasdiqlash ekrani ochiladi: sarlavha, raqam, 4 ta OTP maydon, hisoblagich, "Davom etish" ko'rinadi | — | SMS tasdiqlash sahifasidagi barcha elementlar to'liq ko'rinishi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | — |
+| P-Sm-2 | SMS tasdiqlash | Telefon raqami yashirilgan holatda ko'rinishi | High | Foydalanuvchi login ekranida raqam kiritgan bo'lishi | 1) ICE CITY ilovasini oching 2) +998 90 123 45 67 kiriting 3) "Davom etish" bosing | 1) Login ochiladi 2) Raqam kiritiladi 3) "+99890 ***67" formatida yashirilgan raqam ko'rinadi | +998 90 123 45 67 | Raqamning o'rta qismi yashirilgan bo'lishi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | — |
+| P-Sm-3 | SMS tasdiqlash | 4 ta OTP maydon ko'rinishi va ishlashi | High | Foydalanuvchi SMS ekraniga o'tgan bo'lishi | 1) ICE CITY ilovasini oching 2) Login ekranidan SMS ekraniga o'ting 3) Birinchi OTP maydoniga raqam kiriting | 1) Login ochiladi 2) SMS ekrani ochiladi 3) Raqam birinchi maydonga kiritiladi, kursor avtomatik ikkinchi maydonga o'tadi | — | 4 ta alohida OTP maydoni ko'rinishi va ishlashi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | — |
+| P-Sm-4 | SMS tasdiqlash | OTP kiritishda maydonlar orasida avtomatik o'tish | High | Foydalanuvchi SMS ekraniga o'tgan bo'lishi | 1) ICE CITY ilovasini oching 2) SMS ekraniga o'ting 3) Birinchi maydonga "1" kiriting | 1) Login ochiladi 2) SMS ekrani ochiladi 3) "1" kiritilgach kursor avtomatik 2-maydonga o'tadi | 1 | Har bir raqamdan keyin kursor keyingi maydonga o'tishi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | — |
+| P-Sm-5 | SMS tasdiqlash | OTP — Backspace bosilganda oldingi maydonga qaytish | Medium | Foydalanuvchi SMS ekraniga o'tgan bo'lishi | 1) ICE CITY ilovasini oching 2) SMS ekraniga o'ting 3) "12" kiriting 4) Backspace bosing | 1) Login ochiladi 2) SMS ekrani ochiladi 3) "12" kiritiladi 4) "2" o'chiriladi va kursor 1-maydonga qaytadi | — | Backspace bosilganda kursor oldingi maydonga qaytishi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | — |
+| N-Sm-6 | SMS tasdiqlash | OTP maydoniga harf kiritib bo'lmasligi | High | Foydalanuvchi SMS ekraniga o'tgan bo'lishi | 1) ICE CITY ilovasini oching 2) SMS ekraniga o'ting 3) OTP maydoniga harf kiritishga urinib ko'ring | 1) Login ochiladi 2) SMS ekrani ochiladi 3) Harflar qabul qilinmaydi | abc | OTP maydoni faqat raqam qabul qilishi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | — |
+| N-Sm-7 | SMS tasdiqlash | Noto'g'ri OTP kod kiritilganda xato xabari ko'rinishi | High | Foydalanuvchi SMS ekraniga o'tgan bo'lishi | 1) ICE CITY ilovasini oching 2) SMS ekraniga o'ting 3) Noto'g'ri 4 xonali kod kiriting 4) "Davom etish" bosing | 1) Login ochiladi 2) SMS ekrani ochiladi 3) Noto'g'ri kod kiritiladi 4) Xato xabari chiqadi | 0000 | Noto'g'ri kod haqida xato xabari ko'rinishi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | — |
+| P-Sm-8 | SMS tasdiqlash | To'g'ri OTP kod kiritilganda Ekran 3 ga o'tish | Critical | Foydalanuvchi SMS ekraniga o'tgan bo'lishi va SMS kelgan bo'lishi | 1) ICE CITY ilovasini oching 2) SMS ekraniga o'ting 3) To'g'ri 4 xonali kod kiriting 4) "Davom etish" bosing | 1) Login ochiladi 2) SMS ekrani ochiladi 3) To'g'ri kod kiritiladi 4) Ro'yxatdan o'tish ekrani ochiladi | To'g'ri OTP | Ro'yxatdan o'tish ekraniga o'tishi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | — |
+| P-Sm-9 | SMS tasdiqlash | "Qayta yuborish" hisoblagichi ortga sanashi | High | Foydalanuvchi SMS ekraniga o'tgan bo'lishi | 1) ICE CITY ilovasini oching 2) SMS ekraniga o'ting 3) Hisoblagichni kuzating | 1) Login ochiladi 2) SMS ekrani ochiladi 3) "Qayta yuborish: 56 sek" ortga sanaydi | — | Hisoblagich 56 dan 0 gacha ortga sanashi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | — |
+| N-Sm-10 | SMS tasdiqlash | Hisoblagich tugamaguncha "Qayta yuborish" tugmasi nofaol bo'lishi | Medium | Foydalanuvchi SMS ekraniga o'tgan bo'lishi | 1) ICE CITY ilovasini oching 2) SMS ekraniga o'ting 3) Hisoblagich sanayotganda "Qayta yuborish" bosishga urinib ko'ring | 1) Login ochiladi 2) SMS ekrani ochiladi 3) Tugma nofaol, bosilmaydi | — | Hisoblagich 0 ga yetmaguncha "Qayta yuborish" tugmasi nofaol bo'lishi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | — |
+| P-Sm-11 | SMS tasdiqlash | Hisoblagich 0 ga yetganda "Qayta yuborish" tugmasi faollashishi | Medium | Foydalanuvchi SMS ekraniga o'tgan bo'lishi | 1) ICE CITY ilovasini oching 2) SMS ekraniga o'ting 3) Hisoblagich 0 ga yetishini kuting 4) "Qayta yuborish" tugmasini bosing | 1) Login ochiladi 2) SMS ekrani ochiladi 3) Hisoblagich 0 ga yetadi 4) Yangi SMS yuboriladi, hisoblagich qayta boshlanadi | — | "Qayta yuborish" faollashishi va yangi SMS yuborilishi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | — |
+| P-Sm-12 | SMS tasdiqlash | "‹" tugmasi bosilganda Login ekraniga qaytish | High | Foydalanuvchi SMS ekranida bo'lishi | 1) ICE CITY ilovasini oching 2) SMS ekraniga o'ting 3) "‹" tugmasini bosing | 1) Login ochiladi 2) SMS ekrani ochiladi 3) Login ekraniga qaytiladi, kiritilgan raqam saqlanib qoladi | — | Login ekraniga qaytishi va raqam saqlanib qolishi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | — |
 
-| Title | Sub model | Description | Priority | Bugs | Bug type | Status | Notes |
-|-------|-----------|-------------|----------|------|----------|--------|-------|
-| Orqaga qaytish tugmasi | Ro'yxatdan o'tish | "‹" tugmasi bosilganda Ekran 2 ga qaytishi | High | — | — | — | — |
-| Sarlavha matni | Ro'yxatdan o'tish | "Ro'yxatdan o'tish" matni to'g'ri ko'rinishi | Medium | — | — | — | — |
-| Rasm yuklash doirasi | Ro'yxatdan o'tish | "+" ikonasi bilan doira ko'rinishi | Medium | — | — | — | — |
-| Rasm yuklash — bosilganda | Ro'yxatdan o'tish | Doira yoki "Rasm yuklash" bosilganda galereya/kamera ochilishi | High | — | — | — | — |
-| Rasm yuklash — rasm tanlash | Ro'yxatdan o'tish | Rasm tanlanganda doirada profil rasmi ko'rinishi | High | — | — | — | — |
-| Rasm yuklash — ruxsat so'rash | Ro'yxatdan o'tish | Galereya ruxsati so'ralganda to'g'ri tarzda so'ralishi | Medium | — | — | — | Android/iOS ruxsat tizimi |
-| "Rasm yuklash" matni | Ro'yxatdan o'tish | Ko'k rangdagi "Rasm yuklash" matni ko'rinishi | Low | — | — | — | — |
-| F.I.Sh maydoni | Ro'yxatdan o'tish | "F.I.Sh" placeholder bilan maydon ko'rinishi | High | — | — | — | — |
-| F.I.Sh kiritish — to'g'ri | Ro'yxatdan o'tish | Ism, familiya, sharif kiritilganda qabul qilinishi | High | — | — | — | Kamida 2 so'z bo'lishi kerak |
-| F.I.Sh kiritish — bo'sh | Ro'yxatdan o'tish | Bo'sh qoldirilsa xato xabari ko'rinishi | High | — | — | — | Majburiy maydon |
-| F.I.Sh kiritish — faqat raqam | Ro'yxatdan o'tish | Faqat raqamdan iborat qiymat qabul qilinmasligi | Medium | — | — | — | — |
-| Tug'ilgan sana maydoni | Ro'yxatdan o'tish | "Tug'ilgan sana" placeholder va taqvim ikonasi ko'rinishi | High | — | — | — | — |
-| Tug'ilgan sana — taqvim ikonasi | Ro'yxatdan o'tish | Ikonaga bosiganda sana tanlash taqvimi ochilishi | High | — | — | — | — |
-| Tug'ilgan sana — tanlash | Ro'yxatdan o'tish | Taqvimdan sana tanlab bo'lganda maydonda ko'rinishi | High | — | — | — | Format: KK.OO.YYYY |
-| Tug'ilgan sana — bo'sh | Ro'yxatdan o'tish | Bo'sh qoldirilsa xato xabari ko'rinishi | High | — | — | — | Majburiy maydon |
-| Tug'ilgan sana — kelajak sana | Ro'yxatdan o'tish | Kelajak sana tanlanmasligi kerak | High | — | — | — | — |
-| Tug'ilgan sana — 18 yoshdan kam | Ro'yxatdan o'tish | 18 yoshdan kichik bo'lsa ogohlantirish yoki bloklash | Medium | — | — | — | Loyihaga qarab belgilansin |
-| Jins tanlash — "Erkak" | Ro'yxatdan o'tish | "Erkak" radio tugmasi bosilganda tanlanishi | High | — | — | — | — |
-| Jins tanlash — "Ayol" | Ro'yxatdan o'tish | "Ayol" radio tugmasi bosilganda tanlanishi | High | — | — | — | — |
-| Jins tanlash — faqat bittasi | Ro'yxatdan o'tish | Bir vaqtda faqat bitta jins tanlanishi mumkin | High | — | — | — | — |
-| Jins tanlash — bo'sh | Ro'yxatdan o'tish | Jins tanlanmasa xato xabari ko'rinishi | High | — | — | — | Majburiy maydon |
-| "Tasdiqlash" tugmasi — faol | Ro'yxatdan o'tish | Barcha maydonlar to'ldirilganda tugma faollashishi (ko'k rang) | High | — | — | — | — |
-| "Tasdiqlash" tugmasi — nofaol | Ro'yxatdan o'tish | Biror maydon bo'sh bo'lsa tugma bosilmasligi | High | — | — | — | — |
-| "Tasdiqlash" tugmasi — bosilganda | Ro'yxatdan o'tish | Ma'lumotlar saqlangandan keyin Ekran 4 ga o'tishi | Critical | — | — | — | Navigatsiya to'g'ri ishlashi shart |
-| Ma'lumotlar serverga yuborilishi | Ro'yxatdan o'tish | F.I.Sh, sana, jins, rasm serverga to'g'ri yuborilishi | Critical | — | — | — | API tekshiruvi |
 
 ---
 
-## 📱 EKRAN 4: Virtual karta
+## 📱 EKRAN 3 — Ro'yxatdan o'tish (Profil)
 
-> ⚠️ **Bog'liqlik:** Ekran 3 da "Tasdiqlash" bosilgandan keyin ochiladi
+| Test case ID | Sub model | Description | Priority | Pre-condition | Test steps | Test steps Result | Test data | Expected result | Actual result | Status | Environment | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| P-Rg-1 | Ro'yxatdan o'tish | Ro'yxatdan o'tish sahifasidagi barcha elementlar to'liq yuklanishi | High | Foydalanuvchi OTP tasdiqlagan bo'lishi va internet yaxshi ishlashi | 1) ICE CITY ilovasini oching 2) Login va SMS ekranlaridan o'ting | 1) Login ochiladi 2) Ro'yxatdan o'tish ekrani ochiladi: rasm yuklash, F.I.Sh, tug'ilgan sana, jins, "Tasdiqlash" tugmasi ko'rinadi | — | Ro'yxatdan o'tish sahifasidagi barcha elementlar to'liq ko'rinishi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | — |
+| P-Rg-2 | Ro'yxatdan o'tish | Rasm yuklash tugmasi bosilganda galereya/kamera ochilishi | High | Foydalanuvchi Ro'yxatdan o'tish ekranida bo'lishi | 1) ICE CITY ilovasini oching 2) Ro'yxatdan o'tish ekraniga o'ting 3) "+" doirasini bosing | 1) Login ochiladi 2) Ro'yxatdan o'tish ekrani ochiladi 3) Galereya yoki kamera tanlash oynasi chiqadi | — | Galereya/kamera tanlash oynasi ochilishi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | — |
+| P-Rg-3 | Ro'yxatdan o'tish | Rasmni galereyadan tanlab yuklash | High | Foydalanuvchi Ro'yxatdan o'tish ekranida bo'lishi | 1) ICE CITY ilovasini oching 2) Ro'yxatdan o'tish ekraniga o'ting 3) "+" doirasini bosing 4) Galereyadan rasm tanlang | 1) Login ochiladi 2) Ekran ochiladi 3) Galereya ochiladi 4) Tanlangan rasm doirada ko'rinadi | — | Tanlangan rasm profil doirasida ko'rinishi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | — |
+| P-Rg-4 | Ro'yxatdan o'tish | F.I.Sh maydoniga to'g'ri ma'lumot kiritish | High | Foydalanuvchi Ro'yxatdan o'tish ekranida bo'lishi | 1) ICE CITY ilovasini oching 2) Ro'yxatdan o'tish ekraniga o'ting 3) F.I.Sh maydoniga ism kiriting | 1) Login ochiladi 2) Ekran ochiladi 3) Ma'lumot qabul qilinadi | Sobirov Hamidullo Otabek | F.I.Sh maydoni to'liq ism qabul qilishi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | — |
+| N-Rg-5 | Ro'yxatdan o'tish | F.I.Sh maydoni bo'sh qoldirilganda xato xabari ko'rinishi | High | Foydalanuvchi Ro'yxatdan o'tish ekranida bo'lishi | 1) ICE CITY ilovasini oching 2) Ro'yxatdan o'tish ekraniga o'ting 3) F.I.Sh maydonini bo'sh qoldiring 4) "Tasdiqlash" tugmasini bosing | 1) Login ochiladi 2) Ekran ochiladi 3) Bo'sh qoldiriladi 4) F.I.Sh to'ldirilishi kerakligi haqida xato xabari chiqadi | — | F.I.Sh maydoni to'ldirilishi majburiyligi haqida xato xabari ko'rinishi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | — |
+| N-Rg-6 | Ro'yxatdan o'tish | F.I.Sh maydoniga faqat raqam kiritilganda qabul qilinmasligi | Medium | Foydalanuvchi Ro'yxatdan o'tish ekranida bo'lishi | 1) ICE CITY ilovasini oching 2) Ro'yxatdan o'tish ekraniga o'ting 3) F.I.Sh maydoniga faqat raqam kiriting 4) "Tasdiqlash" bosing | 1) Login ochiladi 2) Ekran ochiladi 3) Raqam kiritiladi 4) Xato xabari chiqadi | 123456 | Faqat raqamdan iborat qiymat qabul qilinmasligi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | — |
+| P-Rg-7 | Ro'yxatdan o'tish | Tug'ilgan sana — taqvim ikonasi bosilganda taqvim ochilishi | High | Foydalanuvchi Ro'yxatdan o'tish ekranida bo'lishi | 1) ICE CITY ilovasini oching 2) Ro'yxatdan o'tish ekraniga o'ting 3) Taqvim ikonasini bosing | 1) Login ochiladi 2) Ekran ochiladi 3) Sana tanlash taqvimi ochiladi | — | Sana tanlash taqvimi ochilishi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | — |
+| P-Rg-8 | Ro'yxatdan o'tish | Taqvimdan sana tanlab bo'lganda maydonda ko'rinishi | High | Foydalanuvchi Ro'yxatdan o'tish ekranida bo'lishi | 1) ICE CITY ilovasini oching 2) Ro'yxatdan o'tish ekraniga o'ting 3) Taqvim ikonasini bosing 4) 01.01.2000 sanasini tanlang | 1) Login ochiladi 2) Ekran ochiladi 3) Taqvim ochiladi 4) Tanlangan sana maydonda ko'rinadi | 01.01.2000 | Tanlangan sana maydonda to'g'ri formatda ko'rinishi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | Format: KK.OO.YYYY |
+| N-Rg-9 | Ro'yxatdan o'tish | Tug'ilgan sana — kelajak sana tanlanib bo'lmasligi | High | Foydalanuvchi Ro'yxatdan o'tish ekranida bo'lishi | 1) ICE CITY ilovasini oching 2) Ro'yxatdan o'tish ekraniga o'ting 3) Taqvim ikonasini bosing 4) Kelajakdagi sana tanlashga urining | 1) Login ochiladi 2) Ekran ochiladi 3) Taqvim ochiladi 4) Kelajak sanalar nofaol (kulrang) ko'rinadi, tanlanmaydi | 01.01.2030 | Kelajak sanalar tanlanmasligi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | — |
+| N-Rg-10 | Ro'yxatdan o'tish | Tug'ilgan sana bo'sh qoldirilganda xato xabari ko'rinishi | High | Foydalanuvchi Ro'yxatdan o'tish ekranida bo'lishi | 1) ICE CITY ilovasini oching 2) Ro'yxatdan o'tish ekraniga o'ting 3) Tug'ilgan sana maydonini bo'sh qoldiring 4) "Tasdiqlash" tugmasini bosing | 1) Login ochiladi 2) Ekran ochiladi 3) Bo'sh qoldiriladi 4) Sana kiritilishi kerakligi haqida xato xabari chiqadi | — | Tug'ilgan sana to'ldirilishi majburiyligi haqida xato xabari ko'rinishi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | — |
+| P-Rg-11 | Ro'yxatdan o'tish | Jins — "Erkak" radio tugmasi tanlanishi | High | Foydalanuvchi Ro'yxatdan o'tish ekranida bo'lishi | 1) ICE CITY ilovasini oching 2) Ro'yxatdan o'tish ekraniga o'ting 3) "Erkak" radio tugmasini bosing | 1) Login ochiladi 2) Ekran ochiladi 3) "Erkak" tanlanadi, radio tugma to'ladi | — | "Erkak" radio tugmasi tanlanishi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | — |
+| P-Rg-12 | Ro'yxatdan o'tish | Jins — "Ayol" radio tugmasi tanlanishi | High | Foydalanuvchi Ro'yxatdan o'tish ekranida bo'lishi | 1) ICE CITY ilovasini oching 2) Ro'yxatdan o'tish ekraniga o'ting 3) "Ayol" radio tugmasini bosing | 1) Login ochiladi 2) Ekran ochiladi 3) "Ayol" tanlanadi, radio tugma to'ladi | — | "Ayol" radio tugmasi tanlanishi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | — |
+| N-Rg-13 | Ro'yxatdan o'tish | Bir vaqtda faqat bitta jins tanlanishi | High | Foydalanuvchi Ro'yxatdan o'tish ekranida bo'lishi | 1) ICE CITY ilovasini oching 2) Ro'yxatdan o'tish ekraniga o'ting 3) "Erkak" bosing 4) "Ayol" bosing | 1) Login ochiladi 2) Ekran ochiladi 3) "Erkak" tanlanadi 4) "Ayol" tanlanadi, "Erkak" avtomatik bekor bo'ladi | — | Bir vaqtda faqat bitta jins tanlanishi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | — |
+| N-Rg-14 | Ro'yxatdan o'tish | Jins tanlanmagan holatda xato xabari ko'rinishi | High | Foydalanuvchi Ro'yxatdan o'tish ekranida bo'lishi | 1) ICE CITY ilovasini oching 2) Ro'yxatdan o'tish ekraniga o'ting 3) Jins tanlamang 4) "Tasdiqlash" bosing | 1) Login ochiladi 2) Ekran ochiladi 3) Jins tanlanmaydi 4) Jins tanlanishi kerakligi haqida xato xabari chiqadi | — | Jins tanlanishi majburiyligi haqida xato xabari ko'rinishi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | — |
+| N-Rg-15 | Ro'yxatdan o'tish | Barcha maydonlar bo'sh bo'lganda "Tasdiqlash" tugmasi nofaol bo'lishi | High | Foydalanuvchi Ro'yxatdan o'tish ekranida bo'lishi | 1) ICE CITY ilovasini oching 2) Ro'yxatdan o'tish ekraniga o'ting 3) Hech narsa to'ldirmang 4) "Tasdiqlash" tugmasini bosing | 1) Login ochiladi 2) Ekran ochiladi 3) Maydonlar bo'sh 4) Tugma bosilmaydi yoki xato xabarlari chiqadi | — | Barcha maydonlar to'ldirilmaguncha "Tasdiqlash" nofaol bo'lishi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | — |
+| P-Rg-16 | Ro'yxatdan o'tish | Barcha maydonlar to'ldirilganda "Tasdiqlash" bosilganda Ekran 4 ga o'tish | Critical | Foydalanuvchi Ro'yxatdan o'tish ekranida bo'lishi va internet yaxshi ishlashi | 1) ICE CITY ilovasini oching 2) Ro'yxatdan o'tish ekraniga o'ting 3) Barcha maydonlarni to'ldiring 4) "Tasdiqlash" tugmasini bosing | 1) Login ochiladi 2) Ekran ochiladi 3) Barcha maydonlar to'ldiriladi 4) Virtual karta ekrani ochiladi | F.I.Sh: Sobirov Hamidullo, Sana: 01.01.2000, Jins: Erkak | Virtual karta ekraniga o'tishi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | — |
+| P-Rg-17 | Ro'yxatdan o'tish | "‹" tugmasi bosilganda SMS ekraniga qaytish | High | Foydalanuvchi Ro'yxatdan o'tish ekranida bo'lishi | 1) ICE CITY ilovasini oching 2) Ro'yxatdan o'tish ekraniga o'ting 3) "‹" tugmasini bosing | 1) Login ochiladi 2) Ro'yxatdan o'tish ekrani ochiladi 3) SMS tasdiqlash ekraniga qaytiladi | — | SMS tasdiqlash ekraniga qaytishi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | — |
 
-| Title | Sub model | Description | Priority | Bugs | Bug type | Status | Notes |
-|-------|-----------|-------------|----------|------|----------|--------|-------|
-| Orqaga qaytish tugmasi | Virtual karta | "‹" tugmasi bosilganda Ekran 3 ga qaytishi | High | — | — | — | — |
-| Sarlavha matni | Virtual karta | "Virtual karta" matni to'g'ri ko'rinishi | Medium | — | — | — | — |
-| 1-bandning ikonasi va matni | Virtual karta | Karta ikonasi + "Kartani onlayn oching yoki kassada olinganini yuklang" matni | Medium | — | — | — | — |
-| 2-bandning ikonasi va matni | Virtual karta | Balans ikonasi + "Balansni to'ldiring — navbatsiz" matni | Medium | — | — | — | — |
-| 3-bandning ikonasi va matni | Virtual karta | Chipta ikonasi + "Attraksionlarga chiptalarni to'g'ridan-to'g'ri ilovada sotib oling" matni | Medium | — | — | — | — |
-| 4-bandning ikonasi va matni | Virtual karta | QR kod ikonasi + "Chipta QR kodini kirishda ko'rsating" matni | Medium | — | — | — | — |
-| Bandlar ikonalari ko'rinishi | Virtual karta | Barcha 4 ta ikonani ko'k rangda va to'g'ri ko'rinishi | Low | — | — | — | — |
-| Bandlar orasidagi chiziq | Virtual karta | Ikonalar orasidagi vertikal nuqtali chiziq to'g'ri ko'rinishi | Low | — | — | — | — |
-| "Menda allaqachon karta bor" tugmasi | Virtual karta | Tugma ko'k matn bilan, och ko'k fonda ko'rinishi | High | — | — | — | — |
-| "Menda allaqachon karta bor" — bosilganda | Virtual karta | Mavjud kartani bog'lash ekrani yoki jarayoni ochilishi | High | — | — | — | Keyingi flow bilan bog'liq |
-| "Karta ochish" tugmasi | Virtual karta | Gradiyent ko'k tugma to'g'ri ko'rinishi | High | — | — | — | — |
-| "Karta ochish" — bosilganda | Virtual karta | Yangi karta ochish jarayoni boshlanishi | Critical | — | — | — | — |
-| Onboarding yakunlanishi | Virtual karta | Bu ekranda onboarding to'liq yakunlangan hisoblanadi | Critical | — | — | — | Foydalanuvchi tizimga kirgan |
+
+---
+
+## 📱 EKRAN 4 — Virtual karta
+
+| Test case ID | Sub model | Description | Priority | Pre-condition | Test steps | Test steps Result | Test data | Expected result | Actual result | Status | Environment | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| P-Vk-1 | Virtual karta | Virtual karta sahifasidagi barcha elementlar to'liq yuklanishi | High | Foydalanuvchi Ro'yxatdan o'tish ekranida barcha ma'lumotlarni tasdiqlagan bo'lishi va internet yaxshi ishlashi | 1) ICE CITY ilovasini oching 2) Barcha ekranlardan o'tib Virtual karta ekraniga keling | 1) Login ochiladi 2) Virtual karta ekrani ochiladi: sarlavha, 4 ta band, "Menda allaqachon karta bor", "Karta ochish" tugmalari ko'rinadi | — | Virtual karta sahifasidagi barcha elementlar to'liq ko'rinishi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | — |
+| P-Vk-2 | Virtual karta | 4 ta band va ikonalari to'g'ri ko'rinishi | Medium | Foydalanuvchi Virtual karta ekranida bo'lishi | 1) ICE CITY ilovasini oching 2) Virtual karta ekraniga o'ting 3) Barcha 4 ta bandga e'tibor bering | 1) Login ochiladi 2) Virtual karta ekrani ochiladi 3) Barcha 4 ta band ikonasi va matni to'g'ri ko'k rangda ko'rinadi | — | 4 ta band ikonalari va matnlari to'g'ri ko'rinishi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | — |
+| P-Vk-3 | Virtual karta | "Karta ochish" tugmasi to'g'ri ko'rinishi va bosilishi | High | Foydalanuvchi Virtual karta ekranida bo'lishi | 1) ICE CITY ilovasini oching 2) Virtual karta ekraniga o'ting 3) "Karta ochish" tugmasini bosing | 1) Login ochiladi 2) Virtual karta ekrani ochiladi 3) Yangi karta ochish jarayoni boshlanadi | — | "Karta ochish" bosilganda yangi karta ochish jarayoni boshlanishi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | — |
+| P-Vk-4 | Virtual karta | "Menda allaqachon karta bor" tugmasi bosilishi | High | Foydalanuvchi Virtual karta ekranida bo'lishi va mavjud kartasi bo'lishi | 1) ICE CITY ilovasini oching 2) Virtual karta ekraniga o'ting 3) "Menda allaqachon karta bor" tugmasini bosing | 1) Login ochiladi 2) Virtual karta ekrani ochiladi 3) Mavjud kartani bog'lash sahifasi ochiladi | — | Mavjud kartani bog'lash sahifasi ochilishi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | — |
+| P-Vk-5 | Virtual karta | "‹" tugmasi bosilganda Ro'yxatdan o'tish ekraniga qaytish | High | Foydalanuvchi Virtual karta ekranida bo'lishi | 1) ICE CITY ilovasini oching 2) Virtual karta ekraniga o'ting 3) "‹" tugmasini bosing | 1) Login ochiladi 2) Virtual karta ekrani ochiladi 3) Ro'yxatdan o'tish ekraniga qaytiladi | — | Ro'yxatdan o'tish ekraniga qaytishi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | — |
+| P-Vk-6 | Virtual karta | Onboarding to'liq yakunlanishi — foydalanuvchi tizimda | Critical | Foydalanuvchi "Karta ochish" yoki "Menda allaqachon karta bor" bosgan bo'lishi | 1) ICE CITY ilovasini oching 2) Barcha 4 ta ekrandan o'ting 3) "Karta ochish" tugmasini bosing | 1) Login ochiladi 2-3) SMS va Ro'yxatdan o'tish ekranlari o'tiladi 4) Virtual karta ekrani ochiladi 5) Karta ochish boshlanadi — foydalanuvchi tizimga to'liq kirdi | — | Onboarding to'liq yakunlanib foydalanuvchi ilovaga kirishi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | — |
 
 ---
 
 ## 🔗 OQIM (FLOW) TEKSHIRUVI — Barcha 4 ekran bog'liqligi
 
-| Title | Sub model | Description | Priority | Bugs | Bug type | Status | Notes |
-|-------|-----------|-------------|----------|------|----------|--------|-------|
-| Ekran 1 → Ekran 2 o'tish | Flow | Raqam kiritib "Davom etish" bosilganda SMS ekrani ochilishi | Critical | — | — | — | — |
-| Ekran 2 → Ekran 3 o'tish | Flow | To'g'ri OTP kiritilganda ro'yxatdan o'tish ekrani ochilishi | Critical | — | — | — | — |
-| Ekran 3 → Ekran 4 o'tish | Flow | "Tasdiqlash" bosilganda virtual karta ekrani ochilishi | Critical | — | — | — | — |
-| Ekran 2 → Ekran 1 qaytish | Flow | Ekran 2 dan "‹" bosilganda Ekran 1 ga qaytishi, raqam saqlanishi | High | — | — | — | — |
-| Ekran 3 → Ekran 2 qaytish | Flow | Ekran 3 dan "‹" bosilganda Ekran 2 ga qaytishi | High | — | — | — | — |
-| Ekran 4 → Ekran 3 qaytish | Flow | Ekran 4 dan "‹" bosilganda Ekran 3 ga qaytishi | High | — | — | — | — |
-| Internet yo'q holati | Flow | Internet yo'q bo'lganda har bir ekranda xato xabari ko'rinishi | High | — | — | — | — |
-| Seans muddati tugashi | Flow | Uzoq kutilganda sessiya muddati tugashi va qayta kirish so'ralishi | Medium | — | — | — | — |
-| Ilovani yopib qayta ochish | Flow | Jarayon o'rtasida ilova yopilsa, qayta ochilganda to'g'ri ekran ko'rinishi | Medium | — | — | — | — |
-| Orqaga tugmasi (telefon) | Flow | Telefon orqaga tugmasi har bir ekranda to'g'ri ishlashi | High | — | — | — | Android fizik tugma |
-
----
-
-## 📊 STATUS TURLARI
-
-| Status | Ma'nosi |
-|--------|---------|
-| ✅ Pass | Tekshirildi, xato yo'q |
-| ❌ Fail | Xato topildi |
-| ⏳ In Progress | Tekshirilmoqda |
-| ⏭️ Skip | O'tkazib yuborildi |
-| 🔄 Retest | Qayta tekshirish kerak |
-
-## 🐛 BUG TYPE TURLARI
-
-| Bug type | Ma'nosi |
-|----------|---------|
-| UI | Ko'rinish xatosi |
-| Functional | Funksional xato |
-| Navigation | Navigatsiya xatosi |
-| Validation | Tekshiruv xatosi |
-| Performance | Ishlash tezligi xatosi |
-| Crash | Ilova to'xtab qolishi |
-| Network | Tarmoq xatosi |
-
-## ⚡ PRIORITY TURLARI
-
-| Priority | Ma'nosi |
-|----------|---------|
-| Critical | Darhol tuzatilishi shart, flow bloklangan |
-| High | Muhim, tezda tuzatilishi kerak |
-| Medium | O'rta muhimlikdagi xato |
-| Low | Kichik xato, keyinroq tuzatilishi mumkin |
+| Test case ID | Sub model | Description | Priority | Pre-condition | Test steps | Test steps Result | Test data | Expected result | Actual result | Status | Environment | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| P-Fl-1 | Flow | Ekran 1 → 2 → 3 → 4 to'liq oqimni tekshirish | Critical | Internet yaxshi ishlashi kerak | 1) ICE CITY ilovasini oching 2) Telefon raqam kiriting 3) "Davom etish" bosing 4) To'g'ri OTP kiriting 5) "Davom etish" bosing 6) Barcha ma'lumotlarni to'ldiring 7) "Tasdiqlash" bosing | 1) Login ekrani ochiladi 2) Raqam kiritiladi 3) SMS ekrani ochiladi 4) OTP kiritiladi 5) Ro'yxatdan o'tish ekrani ochiladi 6) Ma'lumotlar kiritiladi 7) Virtual karta ekrani ochiladi | +998 90 123 45 67, To'g'ri OTP | To'liq onboarding oqimi muvaffaqiyatli o'tishi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | — |
+| P-Fl-2 | Flow | Telefon orqaga tugmasi har bir ekranda to'g'ri ishlashi | High | Internet yaxshi ishlashi kerak | 1) ICE CITY ilovasini oching 2) SMS ekraniga o'ting 3) Telefonning orqaga tugmasini bosing | 1) Login ekrani ochiladi 2) SMS ekrani ochiladi 3) Login ekraniga qaytiladi | — | Telefon orqaga tugmasi oldingi ekranga qaytishi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | Android fizik tugma |
+| N-Fl-3 | Flow | Internet yo'q holatda xato xabari ko'rinishi | High | Internet o'chirilgan bo'lishi kerak | 1) Internetni o'chiring 2) ICE CITY ilovasini oching 3) Telefon raqam kiritib "Davom etish" bosing | 1) Ilova ochiladi 2) Login ekrani ochiladi 3) Internet yo'qligi haqida xato xabari chiqadi | — | Internet yo'q bo'lganda xato xabari ko'rinishi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | — |
+| N-Fl-4 | Flow | Jarayon o'rtasida ilova yopilsa, qayta ochilganda to'g'ri ekran ko'rinishi | Medium | Foydalanuvchi SMS ekranida bo'lishi | 1) ICE CITY ilovasini oching 2) SMS ekraniga o'ting 3) Ilovani yoping 4) Ilovani qayta oching | 1) Login ochiladi 2) SMS ekrani ochiladi 3) Ilova yopiladi 4) SMS ekrani yoki Login ekrani ko'rinadi | — | Ilova qayta ochilganda to'g'ri ekran ko'rinishi kerak | — | — | Ilova versiyasi 1.0.10, Samsung Galaxy A31, Android 11 | — |
