@@ -1,0 +1,31 @@
+Checklist ID	Title	Sub model	Description	Priority	Bugs	Bug type	Status	Notes
+CL-Pr-1	Profil sahifasiga o'tish	Profil	Bottom nav dan "Profil" bosilganda profil sahifasi ochilishi	High				
+CL-Pr-2	Profil sahifasi elementlari	Profil	Profil rasmi, ism, telefon, tug'ilgan sana, jins ma'lumotlari ko'rinishi	High				
+CL-Pr-3	Profil rasmi ko'rinishi	Profil	Foydalanuvchi profil rasmi to'g'ri ko'rinishi	Medium				
+CL-Pr-4	Profil rasmi — rasm yuklanmagan holat	Profil	Rasm yuklanmagan bo'lsa default avatar ko'rinishi	Medium				
+CL-Pr-5	Profil rasmi — o'zgartirish	Profil	Profil rasmi bosilganda galereya/kamera ochilishi	High				
+CL-Pr-6	Profil rasmi — yangi rasm saqlash	Profil	Yangi rasm tanlanganda profilda yangilanishi	High				
+CL-Pr-7	Ism ko'rinishi	Profil	Foydalanuvchi to'liq ismi (F.I.Sh) to'g'ri ko'rinishi	High				
+CL-Pr-8	Telefon raqami ko'rinishi	Profil	Ro'yxatdan o'tilgan telefon raqami to'g'ri ko'rinishi	High				
+CL-Pr-9	Tug'ilgan sana ko'rinishi	Profil	Foydalanuvchi tug'ilgan sanasi to'g'ri formatda ko'rinishi	High				Format: KK.OO.YYYY
+CL-Pr-10	Jins ko'rinishi	Profil	Foydalanuvchi jinsi (Erkak/Ayol) to'g'ri ko'rinishi	High				
+CL-Pr-11	Ma'lumotlarni tahrirlash — ism	Profil	Ism maydoni tahrirlanib yangi qiymat saqlanishi	High				
+CL-Pr-12	Ma'lumotlarni tahrirlash — tug'ilgan sana	Profil	Tug'ilgan sana tahrirlanib yangi qiymat saqlanishi	High				
+CL-Pr-13	Ma'lumotlarni tahrirlash — jins	Profil	Jins tahrirlanib yangi qiymat saqlanishi	High				
+CL-Pr-14	Tahrirlash — bo'sh ism	Profil	Ism bo'sh qoldirilsa xato xabari ko'rinishi	High				Majburiy maydon
+CL-Pr-15	Tahrirlash — saqlash tugmasi	Profil	"Saqlash" bosilganda o'zgarishlar serverga yuborilishi	Critical				
+CL-Pr-16	Tahrirlash — bekor qilish	Profil	"Bekor qilish" bosilganda o'zgarishlar saqlanmasligi	Medium				
+CL-Pr-17	Til sozlamalari ko'rinishi	Profil	Til tanlash bo'limi profilida ko'rinishi	High				
+CL-Pr-18	Til — O'zbek tanlash	Profil	"O'zbek tili" tanlanganda barcha ekranlar o'zbekchaga o'zgarishi	High				
+CL-Pr-19	Til — Rus tanlash	Profil	"Русский" tanlanganda barcha ekranlar ruscha bo'lishi	High				
+CL-Pr-20	Bildirishnoma sozlamalari	Profil	Bildirishnomalarni yoqish/o'chirish ishlashi	Medium				
+CL-Pr-21	Ilova versiyasi ko'rinishi	Profil	Ilova versiyasi profil sahifasida ko'rinishi	Low				Versiya: 1.0.10
+CL-Pr-22	"Chiqish" tugmasi ko'rinishi	Profil	"Chiqish" (Logout) tugmasi to'g'ri ko'rinishi	High				
+CL-Pr-23	"Chiqish" — bosilganda tasdiqlash	Profil	"Chiqish" bosilganda "Rostdan ham chiqmoqchimisiz?" oynasi ochilishi	High				
+CL-Pr-24	"Chiqish" — tasdiqlash "Ha"	Profil	"Ha" bosilganda Login ekraniga qaytilishi va sessiya tugatilishi	Critical				
+CL-Pr-25	"Chiqish" — bekor qilish "Yo'q"	Profil	"Yo'q" bosilganda oyna yopilishi va profilda qolinishi	High				
+CL-Pr-26	Qayta kirish — ma'lumotlar o'chirilishi	Profil	Chiqib qayta kirgan payt avvalgi sessiya ma'lumotlari saqlanmasligi	High				
+CL-Pr-27	Profil — vertikal scroll	Profil	Profil sahifasi yuqoridan pastga siljishi ishlashi	Medium				
+CL-Pr-28	Internet yo'q — profil yuklanishi	Profil	Internet yo'q bo'lganda xato xabari ko'rinishi	High				
+CL-Pr-29	Profil — bottom nav faol holati	Profil	"Profil" ikonasi bottom nav da faol (ko'k) holatda ko'rinishi	Medium				
+CL-Pr-30	Hisobni o'chirish	Profil	"Hisobni o'chirish" bo'limi mavjud bo'lsa ishlashi	Medium				Agar mavjud bo'lsa
