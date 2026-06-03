@@ -35,6 +35,10 @@ CL-Ch-1	Chiptalar sahifasi	Chiptalar	Faol va Yakunlangan tablar ishlashi bosh ho
 CL-Ch-2	Chipta sotib olish	Chiptalar	Attraksion tanlash miqdor va narx hisoblash tolov muvaffaqiyatli otishi	High				
 CL-Ch-3	QR kod	Chiptalar	Tolovdan keyin QR kod korinishi chipta Faol tabda korinishi	High				
 CL-Ch-4	Tarif sotib olish	Chiptalar	Tariflar royxati ochilishi muvaffaqiyatli sotib olinishi	High				
+CL-Ch-5	Yetarsiz balans	Chiptalar	Chipta sotib olishda balans yetmasa toldirish taklif qilinishi	High				
+CL-Ch-6	Faol emas karta	Chiptalar	Karta faol bolmaganda chipta sotib olib bolmasligi	High				
+CL-Ch-7	Chipta holati	Chiptalar	Sotib olingan chipta Faol tabda foydalanilgandan keyin Yakunlangan tabda korinishi	High				
+CL-Ch-8	Orqaga qaytish	Chiptalar	Strelka bosilganda oldingi sahifaga qaytilishi	High				
 CL-Pr-1	Profil sahifasi	Profil	Ma'lumotlar korinishi rasm korinishi	High				
 CL-Pr-2	Ma'lumot tahrirlash	Profil	Ozgarishlar saqlanishi bosh ism da xabar korinishi	High				
 CL-Pr-3	Til va chiqish	Profil	Til ozgarganda ekranlar yangilanishi chiqishda Login ekraniga otishi	High				
