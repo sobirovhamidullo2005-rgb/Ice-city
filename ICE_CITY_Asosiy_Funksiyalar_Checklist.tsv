@@ -1,0 +1,86 @@
+Checklist ID	Title	Sub model	Description	Priority	Bugs	Bug type	Status	Notes
+CL-As-1	Ilovani ochish	Asosiy	Ilova ikonkasiga bosilganda ilova muvaffaqiyatli ochilishi	Critical				
+CL-As-2	Splash screen ko'rinishi	Asosiy	Ilova ochilayotganda ICE CITY logotipi bilan splash screen ko'rinishi	Medium				
+CL-As-3	Internet yo'q — xato xabari	Asosiy	Internet bo'lmaganda foydalanuvchiga tushunarli xato xabari ko'rinishi	High				
+CL-As-4	Ilova tili — O'zbek	Asosiy	Ilova o'zbek tilida to'g'ri ishlashi	High				
+CL-As-5	Ilova tili — Rus	Asosiy	Ilova rus tilida to'g'ri ishlashi	High				
+CL-As-6	Ilovani fonga o'tkazib qaytish	Asosiy	Ilova fonga o'tkazilib qayta ochilganda sessiya saqlanib qolishi	Medium				
+CL-As-7	Ilovani to'liq yopib qayta ochish	Asosiy	Ilova to'liq yopilgandan keyin qayta ochilganda login ekrani ko'rinishi	Medium				
+CL-Lo-1	Login — sahifa elementlari	Login	Login sahifasida til tanlash, telefon maydoni, "Davom etish" tugmasi to'liq ko'rinishi	High				
+CL-Lo-2	Login — O'zbek tili tanlash	Login	"O'zbek tili" bosilganda barcha matnlar o'zbekchaga o'zgarishi	High				
+CL-Lo-3	Login — Rus tili tanlash	Login	"Русский" bosilganda barcha matnlar ruscha bo'lishi	High				
+CL-Lo-4	Login — to'g'ri raqam kiritish	Login	+998 formatida to'liq 9 xonali raqam kiritilganda qabul qilinishi	High				
+CL-Lo-5	Login — noto'g'ri raqam	Login	9 tadan kam raqam kiritilganda xato xabari ko'rinishi	High				
+CL-Lo-6	Login — harf kiritib bo'lmasligi	Login	Telefon maydoniga faqat raqam kiritilishi mumkinligi	High				
+CL-Lo-7	Login — "Davom etish" nofaol	Login	Raqam to'liq kiritilmaguncha tugma bosilmasligi	High				
+CL-Lo-8	Login — "Davom etish" faol	Login	To'liq raqam kiritilganda tugma ko'k rangda faollashishi	High				
+CL-Lo-9	Login — SMS ekraniga o'tish	Login	"Davom etish" bosilganda SMS tasdiqlash ekrani ochilishi	Critical				
+CL-Sm-1	SMS — elementlar ko'rinishi	SMS tasdiqlash	Sarlavha, yashirilgan raqam, 4 ta OTP maydon, hisoblagich, tugma ko'rinishi	High				
+CL-Sm-2	SMS — raqam yashirilishi	SMS tasdiqlash	Telefon raqamining o'rta qismi yashirilgan ko'rinishi (+99877***66)	High				
+CL-Sm-3	SMS — OTP avtomatik o'tish	SMS tasdiqlash	Har bir raqamdan keyin kursor keyingi maydonga o'tishi	High				
+CL-Sm-4	SMS — faqat raqam qabul qilish	SMS tasdiqlash	OTP maydoniga faqat raqam kiritilishi	High				
+CL-Sm-5	SMS — noto'g'ri kod	SMS tasdiqlash	Noto'g'ri OTP kiritilganda xato xabari ko'rinishi	High				
+CL-Sm-6	SMS — to'g'ri kod	SMS tasdiqlash	To'g'ri OTP kiritilganda ro'yxatdan o'tish ekrani ochilishi	Critical				
+CL-Sm-7	SMS — hisoblagich	SMS tasdiqlash	Hisoblagich 56 dan 0 gacha ortga sanashi	High				
+CL-Sm-8	SMS — qayta yuborish	SMS tasdiqlash	Hisoblagich 0 ga yetganda "Qayta yuborish" faollashib yangi SMS yuborilishi	High				
+CL-Rg-1	Ro'yxat — rasm yuklash	Ro'yxatdan o'tish	"+" bosilganda galereya/kamera ochilishi va rasm tanlanishi	High				
+CL-Rg-2	Ro'yxat — F.I.Sh kiritish	Ro'yxatdan o'tish	To'liq ism kiritilganda qabul qilinishi	High				
+CL-Rg-3	Ro'yxat — F.I.Sh bo'sh	Ro'yxatdan o'tish	Bo'sh qoldirilganda xato xabari ko'rinishi	High				Majburiy maydon
+CL-Rg-4	Ro'yxat — tug'ilgan sana	Ro'yxatdan o'tish	Taqvimdan sana tanlanishi va maydonda to'g'ri ko'rinishi	High				
+CL-Rg-5	Ro'yxat — kelajak sana	Ro'yxatdan o'tish	Kelajak sana tanlanmasligi	High				
+CL-Rg-6	Ro'yxat — jins tanlash	Ro'yxatdan o'tish	Erkak/Ayol radio tugmasidan bittasi tanlanishi	High				
+CL-Rg-7	Ro'yxat — "Tasdiqlash"	Ro'yxatdan o'tish	Barcha maydonlar to'ldirilganda tugma faollashib virtual karta ekraniga o'tishi	Critical				
+CL-Vk-1	Virtual karta — elementlar	Virtual karta	Karta, to'ldirish usullari (Click, Payme), Tasdiqlash, Keyinroq to'ldirish ko'rinishi	High				
+CL-Vk-2	Virtual karta — "Faol emas" holat	Virtual karta	Yangi karta "Faol emas" qizil belgisi bilan ko'rinishi	High				
+CL-Vk-3	Virtual karta — balans -10 000	Virtual karta	Abonent to'lovi sifatida -10 000 so'm balansi ko'rinishi	High				
+CL-Vk-4	Virtual karta — Click tanlash	Virtual karta	Click bosilganda tanlanib "Tasdiqlash" faollashishi	High				
+CL-Vk-5	Virtual karta — Payme tanlash	Virtual karta	Payme bosilganda tanlanib "Tasdiqlash" faollashishi	High				
+CL-Vk-6	Virtual karta — usulsiz tasdiqlash	Virtual karta	To'lov usuli tanlanmasa "Tasdiqlash" nofaol bo'lishi	High				
+CL-Vk-7	Virtual karta — Click to'lov	Virtual karta	Click tanlanganda "Tasdiqlash" bosilsa Click ilovasi ochilishi	Critical				
+CL-Vk-8	Virtual karta — Payme to'lov	Virtual karta	Payme tanlanganda "Tasdiqlash" bosilsa Payme ilovasi ochilishi	Critical				
+CL-Vk-9	Virtual karta — Keyinroq to'ldirish	Virtual karta	"Keyinroq to'ldirish" bosilganda Home page ochilishi	Critical				
+CL-Hp-1	Home — virtual karta ko'rinishi	Home page	Asosiy ekranda virtual karta holati, balansi, raqami, muddati ko'rinishi	High				
+CL-Hp-2	Home — karta bosilganda	Home page	Kartaga bosilganda to'ldirish ekrani ochilishi	High				
+CL-Hp-3	Home — tanga soni	Home page	Yuqori o'ngda tanga soni to'g'ri ko'rinishi	Medium				
+CL-Hp-4	Home — bildirishnoma	Home page	Qo'ng'iroq ikonasi bosilganda bildirishnomalar sahifasi ochilishi	Medium				
+CL-Hp-5	Home — attraksionlar ro'yxati	Home page	Attraksionlar (nom, narx, vaqt) to'g'ri ko'rinishi	High				
+CL-Hp-6	Home — "Barchasi" tugmasi	Home page	"Barchasi" bosilganda barcha attraksionlar ro'yxati ochilishi	High				
+CL-Hp-7	Home — attraksion kartochkasi	Home page	Attraksion kartochkasiga bosilganda chipta sahifasi ochilishi	High				
+CL-Hp-8	Home — tariflar bo'limi	Home page	"Tariflar" bo'limi to'g'ri ko'rinishi va ishlashi	Medium				
+CL-Hp-9	Home — tezkor havolalar scroll	Home page	Tezkor havolalar bo'limi gorizontal siljishi ishlashi	Medium				
+CL-Hp-10	Home — vertikal scroll	Home page	Asosiy sahifa yuqoridan pastga siljishi ishlashi	Medium				
+CL-Bl-1	Balans — sahifaga o'tish	Balans	Bottom nav dan "Balans" bosilganda balans sahifasi ochilishi	High				
+CL-Bl-2	Balans — virtual karta ko'rinishi	Balans	Mening kartalarim bo'limida virtual karta ko'rinishi	High				
+CL-Bl-3	Balans — to'ldirish tugmasi	Balans	"Balansni to'ldirish" tugmasi bosilganda to'ldirish sahifasi ochilishi	High				
+CL-Bl-4	Balans — Click bilan to'ldirish	Balans	Click tanlanganda to'lov muvaffaqiyatli o'tishi	Critical				
+CL-Bl-5	Balans — Payme bilan to'ldirish	Balans	Payme tanlanganda to'lov muvaffaqiyatli o'tishi	Critical				
+CL-Bl-6	Balans — minimal summa	Balans	1 000 so'mdan kam kiritilganda to'lov amalga oshmasligi	High				Minimal: 1 000 so'm
+CL-Bl-7	Balans — maksimal summa	Balans	10 000 000 so'mdan ko'p kiritilganda to'lov amalga oshmasligi	High				Maksimal: 10 000 000 so'm
+CL-Bl-8	Balans — karta qo'shish	Balans	"+" bosilganda virtual yoki fizik karta qo'shish imkoni ochilishi	High				
+CL-Bl-9	Balans — virtual karta qo'shish	Balans	Virtual karta qo'shilganda ro'yxatda ko'rinishi	High				
+CL-Bl-10	Balans — karta o'chirish	Balans	Karta o'chirish tugmasi bosilganda tasdiqlash so'ralib karta o'chirilishi	High				
+CL-Bl-11	Balans — o'tkazma	Balans	O'z kartalari orasida o'tkazma muvaffaqiyatli o'tishi	High				
+CL-Bl-12	Balans — tarix sahifasi	Balans	"Hammasini ko'rish" bosilganda tranzaksiyalar tarixi ochilishi	High				
+CL-Bl-13	Balans — filtr (karta)	Balans	Tarix sahifasida kartalar bo'yicha filtr ishlashi	Medium				
+CL-Bl-14	Balans — filtr (davr)	Balans	Bugun, kecha, hafta, o'tgan hafta filtrlari ishlashi	Medium				
+CL-Ch-1	Chiptalar — sahifaga o'tish	Chiptalar	Bottom nav dan "Chiptalar" bosilganda chiptalar sahifasi ochilishi	High				
+CL-Ch-2	Chiptalar — ro'yxat ko'rinishi	Chiptalar	Sotib olingan chiptalar ro'yxati to'g'ri ko'rinishi	High				
+CL-Ch-3	Chiptalar — chipta tanlash	Chiptalar	Attraksion tanlanganda chipta sotib olish sahifasi ochilishi	High				
+CL-Ch-4	Chiptalar — QR kod ko'rinishi	Chiptalar	Sotib olingan chipta QR kodi to'g'ri ko'rinishi	Critical				QR kod kirish uchun ishlatiladi
+CL-Ch-5	Chiptalar — faol/o'tgan chiptalar	Chiptalar	Faol va o'tgan chiptalar alohida ko'rinishi	Medium				
+CL-Pr-1	Profil — sahifaga o'tish	Profil	Bottom nav dan "Profil" bosilganda profil sahifasi ochilishi	High				
+CL-Pr-2	Profil — ma'lumotlar ko'rinishi	Profil	Ism, telefon, tug'ilgan sana, jins ma'lumotlari to'g'ri ko'rinishi	High				
+CL-Pr-3	Profil — rasm ko'rinishi	Profil	Profil rasmi to'g'ri ko'rinishi	Medium				
+CL-Pr-4	Profil — ma'lumot tahrirlash	Profil	Profil ma'lumotlari tahrirlanganda o'zgarishlar saqlanishi	High				
+CL-Pr-5	Profil — til o'zgartirish	Profil	Profildan til o'zgartirilganda barcha ekranlar yangi tilda ko'rinishi	High				
+CL-Pr-6	Profil — chiqish (logout)	Profil	"Chiqish" bosilganda Login ekraniga qaytilishi	Critical				
+CL-At-1	Attraksion — ro'yxat yuklanishi	Attraksionlar	Barcha attraksionlar nomi, narxi, davomiyligi bilan to'g'ri yuklanishi	High				
+CL-At-2	Attraksion — batafsil sahifa	Attraksionlar	Attraksion bosilganda batafsil ma'lumot sahifasi ochilishi	High				
+CL-At-3	Attraksion — chipta miqdori tanlash	Attraksionlar	Chipta miqdori oshirish/kamaytirish ishlashi	High				
+CL-At-4	Attraksion — chipta narxi hisob	Attraksionlar	Miqdor o'zgarganda umumiy narx to'g'ri hisoblanishi	High				
+CL-At-5	Attraksion — chipta sotib olish	Attraksionlar	"Sotib olish" bosilganda to'lov jarayoni boshlanishi	Critical				
+CL-At-6	Attraksion — to'lovsiz (balanssiz)	Attraksionlar	Balans yetarli bo'lmaganda to'ldirish taklif qilinishi	High				
+CL-At-7	Attraksion — chipta QR kodi	Attraksionlar	Muvaffaqiyatli to'lovdan keyin QR kod chiqarilishi	Critical				
+CL-Nt-1	Bildirishnoma — ro'yxat	Bildirishnomalar	Bildirishnomalar sahifasida xabarlar ro'yxati ko'rinishi	Medium				
+CL-Nt-2	Bildirishnoma — o'qilmagan badge	Bildirishnomalar	O'qilmagan xabar bo'lganda qo'ng'iroq ikonasida badge ko'rinishi	Medium				
+CL-Nt-3	Bildirishnoma — bosilganda	Bildirishnomalar	Xabar bosilganda tegishli sahifaga o'tishi	Medium				
