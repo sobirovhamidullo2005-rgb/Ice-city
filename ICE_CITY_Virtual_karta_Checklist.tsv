@@ -32,3 +32,30 @@ CL-Vk-30	"Keyinroq to'ldirish" tugmasi ko'rinishi	Karta to'ldirish	"Keyinroq to'
 CL-Vk-31	"Keyinroq to'ldirish" — bosilganda	Karta to'ldirish	Tugma bosilganda to'ldirish oynasi yopilishi va asosiy ekranga o'tishi	High				
 CL-Vk-32	Karta "ICE CITY" logotipi ko'rinishi	Karta to'ldirish	Kartaning chap yuqori burchagida ICE CITY logotipi ko'rinishi	Low				
 CL-Vk-33	"Virtual karta" yozuvi kartada	Karta to'ldirish	Kartada "Virtual karta" yozuvi to'g'ri ko'rinishi	Low				
+
+CL-Hp-1	Home page ochilishi	Home page	"Keyinroq to'ldirish" bosilganda Home page (Asosiy ekran) ochilishi	Critical				
+CL-Hp-2	Virtual karta — "Faol emas" holati	Home page	Asosiy ekranda virtual karta "Faol emas" qizil belgisi bilan ko'rinishi	High				
+CL-Hp-3	Virtual karta — balans ko'rinishi	Home page	Kartada "-10 000 so'm" balansi to'g'ri ko'rinishi	High				Abonent to'lovi 10 000 so'm
+CL-Hp-4	Virtual karta — karta raqami	Home page	"№ 100000267" raqami kartada to'g'ri ko'rinishi	High				
+CL-Hp-5	Virtual karta — amal qilish muddati	Home page	"06/2027" muddati kartada to'g'ri ko'rinishi	Medium				
+CL-Hp-6	Virtual karta — bosilganda	Home page	Kartaga bosilganda karta to'ldirish ekrani qayta ochilishi	High				
+CL-Hp-7	Yuqori panel — ICE CITY logotipi	Home page	ICE CITY logotipi yuqori chap burchakda to'g'ri ko'rinishi	Low				
+CL-Hp-8	Yuqori panel — tanga soni	Home page	Tanga ikonasi va "0" soni yuqori o'ng burchakda ko'rinishi	Medium				
+CL-Hp-9	Yuqori panel — qo'ng'iroq ikonasi	Home page	Qo'ng'iroq (bildirishnoma) ikonasi to'g'ri ko'rinishi	Medium				
+CL-Hp-10	Yuqori panel — qo'ng'iroq bosilganda	Home page	Qo'ng'iroq ikonasi bosilganda bildirishnomalar sahifasi ochilishi	Medium				
+CL-Hp-11	Tezkor havolalar — ICE CITY joylashuvi	Home page	"ICE CITY joylashuvi" kartochkasi ko'rinishi	Medium				
+CL-Hp-12	Tezkor havolalar — Ko'rsatma	Home page	"Ko'rsatma" kartochkasi ko'rinishi va bosilganda ishlashi	Medium				
+CL-Hp-13	Tezkor havolalar — Innovatsiya va qulaylik	Home page	"Ice City – Innovatsiya va qulaylik" kartochkasi ko'rinishi	Medium				
+CL-Hp-14	Tezkor havolalar — gorizontal scroll	Home page	Tezkor havolalar bo'limi gorizontal siljishi (scroll) ishlashi	Medium				
+CL-Hp-15	Attraksionlar — sarlavha va tavsif	Home page	"🏅 Attraksionlar" sarlavhasi va "Chiptani onlayn sotib oling va navbatni unuting" matni ko'rinishi	Medium				
+CL-Hp-16	Attraksionlar — "Barchasi" tugmasi	Home page	"Barchasi" tugmasi to'g'ri (to'q sariq) rangda ko'rinishi va bosilganda barcha attraksionlar ochilishi	High				
+CL-Hp-17	Attraksionlar — Frozen Lake kartochkasi	Home page	"45 minut" belgisi, rasm, "55 000 so'm", "Frozen Lake" nomi va tavsifi ko'rinishi	High				
+CL-Hp-18	Attraksionlar — Speed Skat kartochkasi	Home page	"45 minut" belgisi, rasm, "50 000 so'm", "Speed Skat..." nomi ko'rinishi	High				
+CL-Hp-19	Attraksionlar — gorizontal scroll	Home page	Attraksionlar bo'limi gorizontal siljishi (scroll) ishlashi	Medium				
+CL-Hp-20	Attraksionlar kartochkasi — bosilganda	Home page	Attraksion kartochkasiga bosilganda chipta sotib olish sahifasi ochilishi	High				
+CL-Hp-21	Tariflar bo'limi ko'rinishi	Home page	"🎭 Tariflar" bo'limi pastda ko'rinishi	Medium				
+CL-Hp-22	Bottom nav — "Asosiy" faol holati	Home page	"Asosiy" bo'limi faol (ko'k rang) holatda ko'rinishi	High				
+CL-Hp-23	Bottom nav — "Balans" bosilganda	Home page	"Balans" bosilganda Balans sahifasiga o'tishi	High				
+CL-Hp-24	Bottom nav — "Chiptalar" bosilganda	Home page	"Chiptalar" bosilganda Chiptalar sahifasiga o'tishi	High				
+CL-Hp-25	Bottom nav — "Profil" bosilganda	Home page	"Profil" bosilganda Profil sahifasiga o'tishi	High				
+CL-Hp-26	Sahifa vertikal scroll	Home page	Asosiy sahifa yuqoridan pastga vertikal siljishi (scroll) ishlashi	Medium				
