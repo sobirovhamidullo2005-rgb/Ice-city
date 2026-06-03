@@ -1,14 +1,34 @@
 Checklist ID	Title	Sub model	Description	Priority	Bugs	Bug type	Status	Notes
-CL-Vk-1	Orqaga qaytish tugmasi	Virtual karta	"‹" tugmasi bosilganda Ro'yxatdan o'tish ekraniga qaytishi	High			
-CL-Vk-2	Sarlavha matni	Virtual karta	"Virtual karta" matni to'g'ri ko'rinishi	Medium			
-CL-Vk-3	1-band — karta ikonasi va matni	Virtual karta	Karta ikonasi + "Kartani onlayn oching yoki kassada olinganini yuklang" matni ko'rinishi	Medium			
-CL-Vk-4	2-band — balans ikonasi va matni	Virtual karta	Balans ikonasi + "Balansni to'ldiring — navbatsiz" matni ko'rinishi	Medium			
-CL-Vk-5	3-band — chipta ikonasi va matni	Virtual karta	Chipta ikonasi + "Attraksionlarga chiptalarni to'g'ridan-to'g'ri ilovada sotib oling" matni ko'rinishi	Medium			
-CL-Vk-6	4-band — QR ikonasi va matni	Virtual karta	QR kod ikonasi + "Chipta QR kodini kirishda ko'rsating" matni ko'rinishi	Medium			
-CL-Vk-7	Bandlar ikonalari rangi	Virtual karta	Barcha 4 ta ikonaning ko'k rangda ko'rinishi	Low			
-CL-Vk-8	Bandlar orasidagi chiziq	Virtual karta	Ikonalar orasidagi vertikal nuqtali chiziq to'g'ri ko'rinishi	Low			
-CL-Vk-9	"Menda allaqachon karta bor" — ko'rinishi	Virtual karta	Tugma ko'k matn bilan och ko'k fonda to'g'ri ko'rinishi	High			
-CL-Vk-10	"Menda allaqachon karta bor" — bosilganda	Virtual karta	Mavjud kartani bog'lash ekrani ochilishi	High			
-CL-Vk-11	"Karta ochish" — ko'rinishi	Virtual karta	Gradiyent ko'k tugma to'g'ri ko'rinishi	High			
-CL-Vk-12	"Karta ochish" — bosilganda	Virtual karta	Yangi karta ochish jarayoni boshlanishi	Critical			
-CL-Vk-13	Onboarding yakunlanishi	Virtual karta	Bu ekranda onboarding to'liq yakunlangan, foydalanuvchi tizimga kirgan	Critical			
+CL-Vk-1	Orqaga qaytish tugmasi	Virtual karta	"‹" tugmasi bosilganda Ro'yxatdan o'tish ekraniga qaytishi	High				
+CL-Vk-2	Sarlavha matni	Virtual karta	"Virtual karta" matni to'g'ri ko'rinishi	Medium				
+CL-Vk-3	1-band — karta ikonasi va matni	Virtual karta	Karta ikonasi + "Kartani onlayn oching yoki kassada olinganini yuklang" matni ko'rinishi	Medium				
+CL-Vk-4	2-band — balans ikonasi va matni	Virtual karta	Balans ikonasi + "Balansni to'ldiring — navbatsiz" matni ko'rinishi	Medium				
+CL-Vk-5	3-band — chipta ikonasi va matni	Virtual karta	Chipta ikonasi + "Attraksionlarga chiptalarni to'g'ridan-to'g'ri ilovada sotib oling" matni ko'rinishi	Medium				
+CL-Vk-6	4-band — QR ikonasi va matni	Virtual karta	QR kod ikonasi + "Chipta QR kodini kirishda ko'rsating" matni ko'rinishi	Medium				
+CL-Vk-7	Bandlar ikonalari rangi	Virtual karta	Barcha 4 ta ikonaning ko'k rangda ko'rinishi	Low				
+CL-Vk-8	Bandlar orasidagi chiziq	Virtual karta	Ikonalar orasidagi vertikal nuqtali chiziq to'g'ri ko'rinishi	Low				
+CL-Vk-9	"Menda allaqachon karta bor" — ko'rinishi	Virtual karta	Tugma ko'k matn bilan och ko'k fonda to'g'ri ko'rinishi	High				
+CL-Vk-10	"Menda allaqachon karta bor" — bosilganda	Virtual karta	Mavjud kartani bog'lash ekrani ochilishi	High				
+CL-Vk-11	"Karta ochish" — ko'rinishi	Virtual karta	Gradiyent ko'k tugma to'g'ri ko'rinishi	High				
+CL-Vk-12	"Karta ochish" — bosilganda	Virtual karta	To'ldirish ekrani ochilishi (Faol emas holat + to'ldirish usulini tanlang)	Critical				
+CL-Vk-13	Onboarding yakunlanishi	Virtual karta	Bu ekranda onboarding to'liq yakunlangan foydalanuvchi tizimga kirgan	Critical				
+CL-Vk-14	Karta holati — "Faol emas" ko'rinishi	Karta to'ldirish	"Karta ochish" bosilgandan keyin karta qizil "Faol emas" belgisi bilan ko'rinishi	High				
+CL-Vk-15	Karta balansi — manfiy qiymat	Karta to'ldirish	Kartada "-10 000 so'm" balansi to'g'ri ko'rinishi	High				Abonent to'lovi 10 000 so'm
+CL-Vk-16	Karta raqami ko'rinishi	Karta to'ldirish	"№ 100000267" formatida karta raqami to'g'ri ko'rinishi	High				
+CL-Vk-17	Karta amal qilish muddati	Karta to'ldirish	"06/2027" muddati kartada to'g'ri ko'rinishi	Medium				
+CL-Vk-18	Ogohlantirish xabari ko'rinishi	Karta to'ldirish	"Kartaning faollashtirish va xizmat ko'rsatish uchun abonent to'lovi — 10 000 so'm" matni ko'rinishi	High				
+CL-Vk-19	"To'ldirish usulini tanlang" sarlavhasi	Karta to'ldirish	"To'ldirish usulini tanlang" sarlavhasi to'g'ri ko'rinishi	Medium				
+CL-Vk-20	Click tugmasi ko'rinishi	Karta to'ldirish	"● click" tugmasi to'g'ri ko'rinishi	High				
+CL-Vk-21	Payme tugmasi ko'rinishi	Karta to'ldirish	"Payme" tugmasi to'g'ri ko'rinishi	High				
+CL-Vk-22	Click tugmasi — bosilganda tanlanishi	Karta to'ldirish	Click tugmasi bosilganda tanlanib ajralib ko'rinishi	High				
+CL-Vk-23	Payme tugmasi — bosilganda tanlanishi	Karta to'ldirish	Payme tugmasi bosilganda tanlanib ajralib ko'rinishi	High				
+CL-Vk-24	Bir vaqtda faqat bitta to'lov usuli tanlanishi	Karta to'ldirish	Click va Payme dan faqat bittasi bir vaqtda tanlanishi mumkin	High				
+CL-Vk-25	"Tasdiqlash" — to'lov usuli tanlanmagan holat	Karta to'ldirish	To'lov usuli tanlanmasa "Tasdiqlash" tugmasi nofaol bo'lishi	High				
+CL-Vk-26	"Tasdiqlash" — Click tanlanganda faollashishi	Karta to'ldirish	Click tanlangandan keyin "Tasdiqlash" tugmasi faollashishi	High				
+CL-Vk-27	"Tasdiqlash" — Payme tanlanganda faollashishi	Karta to'ldirish	Payme tanlangandan keyin "Tasdiqlash" tugmasi faollashishi	High				
+CL-Vk-28	"Tasdiqlash" — Click bilan to'lov	Karta to'ldirish	Click tanlangandan keyin "Tasdiqlash" bosilganda Click ilovasi ochilishi	Critical				
+CL-Vk-29	"Tasdiqlash" — Payme bilan to'lov	Karta to'ldirish	Payme tanlangandan keyin "Tasdiqlash" bosilganda Payme ilovasi ochilishi	Critical				
+CL-Vk-30	"Keyinroq to'ldirish" tugmasi ko'rinishi	Karta to'ldirish	"Keyinroq to'ldirish" ko'k matnli tugma to'g'ri ko'rinishi	High				
+CL-Vk-31	"Keyinroq to'ldirish" — bosilganda	Karta to'ldirish	Tugma bosilganda to'ldirish oynasi yopilishi va asosiy ekranga o'tishi	High				
+CL-Vk-32	Karta "ICE CITY" logotipi ko'rinishi	Karta to'ldirish	Kartaning chap yuqori burchagida ICE CITY logotipi ko'rinishi	Low				
+CL-Vk-33	"Virtual karta" yozuvi kartada	Karta to'ldirish	Kartada "Virtual karta" yozuvi to'g'ri ko'rinishi	Low				
