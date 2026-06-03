@@ -1,0 +1,39 @@
+Checklist ID	Title	Sub model	Description	Priority	Bugs	Bug type	Status	Notes
+CL-Ch-1	Chiptalar sahifasiga o'tish	Chiptalar	Bottom nav dan "Chiptalar" bosilganda chiptalar sahifasi ochilishi	High				
+CL-Ch-2	"Chiptalar" sarlavhasi ko'rinishi	Chiptalar	"Chiptalar" sarlavhasi to'g'ri ko'rinishi	Medium				
+CL-Ch-3	"Faol" toggle ko'rinishi	Chiptalar	"Faol" toggle tugmasi to'g'ri ko'rinishi	High				
+CL-Ch-4	"Yakunlangan" toggle ko'rinishi	Chiptalar	"Yakunlangan" toggle tugmasi to'g'ri ko'rinishi	High				
+CL-Ch-5	"Faol" toggle — bosilganda faollashishi	Chiptalar	"Faol" bosilganda faol chiptalar ro'yxati ko'rinishi	High				
+CL-Ch-6	"Yakunlangan" toggle — bosilganda faollashishi	Chiptalar	"Yakunlangan" bosilganda yakunlangan chiptalar ro'yxati ko'rinishi	High				
+CL-Ch-7	Bir vaqtda faqat bitta toggle faol	Chiptalar	"Faol" va "Yakunlangan" dan faqat bittasi bir vaqtda faol bo'lishi	High				
+CL-Ch-8	Bo'sh holat — "Faol" tab	Chiptalar	Faol chipta yo'q bo'lganda "Siz hali chipta sotib olmadingiz" matni ko'rinishi	High				
+CL-Ch-9	Bo'sh holat — "Yakunlangan" tab	Chiptalar	Yakunlangan chipta yo'q bo'lganda bo'sh holat matni ko'rinishi	Medium				
+CL-Ch-10	"Tarif sotib olish" tugmasi ko'rinishi	Chiptalar	Ko'k "Tarif sotib olish" tugmasi to'g'ri ko'rinishi	High				
+CL-Ch-11	"Chipta sotib olish" tugmasi ko'rinishi	Chiptalar	Ko'k "Chipta sotib olish" tugmasi to'g'ri ko'rinishi	High				
+CL-Ch-12	"Tarif sotib olish" — bosilganda	Chiptalar	Tugma bosilganda tariflar ro'yxati sahifasi ochilishi	Critical				
+CL-Ch-13	"Chipta sotib olish" — bosilganda	Chiptalar	Tugma bosilganda attraksionlar ro'yxati sahifasi ochilishi	Critical				
+CL-Ch-14	Attraksionlar ro'yxati yuklanishi	Chipta sotib olish	Attraksionlar nomi, narxi va vaqti bilan to'g'ri yuklanishi	High				
+CL-Ch-15	Attraksion tanlash	Chipta sotib olish	Attraksion kartochkasiga bosilganda batafsil sahifa ochilishi	High				
+CL-Ch-16	Chipta miqdori oshirish	Chipta sotib olish	"+" tugmasi bosilganda chipta miqdori bittaga oshishi	High				
+CL-Ch-17	Chipta miqdori kamaytirish	Chipta sotib olish	"-" tugmasi bosilganda chipta miqdori bittaga kamayishi	High				
+CL-Ch-18	Chipta miqdori — 0 dan kam bo'lmasligi	Chipta sotib olish	Miqdor 1 da turgan payt "-" tugmasi nofaol bo'lishi	High				
+CL-Ch-19	Umumiy narx hisoblash	Chipta sotib olish	Chipta miqdori o'zgarganda umumiy narx to'g'ri hisoblanishi	High				
+CL-Ch-20	Chipta sotib olish — balanssiz	Chipta sotib olish	Balans yetarli bo'lmaganda to'ldirish taklif qilinishi	High				
+CL-Ch-21	Chipta sotib olish — muvaffaqiyatli	Chipta sotib olish	Yetarli balans bo'lganda chipta muvaffaqiyatli sotib olinishi	Critical				
+CL-Ch-22	Chipta sotib olishdan keyin QR kod	Chipta sotib olish	To'lovdan keyin chipta QR kodi to'g'ri ko'rinishi	Critical				QR kod kirish uchun ishlatiladi
+CL-Ch-23	Sotib olingan chipta "Faol" tabda	Chipta sotib olish	Yangi sotib olingan chipta "Faol" tabda ko'rinishi	High				
+CL-Ch-24	Chipta kartochkasi — nomi	Faol chiptalar	Chipta kartochkasida attraksion nomi to'g'ri ko'rinishi	High				
+CL-Ch-25	Chipta kartochkasi — sanasi	Faol chiptalar	Chipta kartochkasida sana va vaqt to'g'ri ko'rinishi	High				
+CL-Ch-26	Chipta kartochkasi — narxi	Faol chiptalar	Chipta kartochkasida to'langan narx to'g'ri ko'rinishi	High				
+CL-Ch-27	Chipta kartochkasi — QR kod ko'rinishi	Faol chiptalar	Chipta kartochkasida QR kod to'g'ri ko'rinishi	Critical				
+CL-Ch-28	Chipta kartochkasi — bosilganda	Faol chiptalar	Chipta kartochkasiga bosilganda batafsil chipta sahifasi ochilishi	High				
+CL-Ch-29	Faol chiptalar — vertikal scroll	Faol chiptalar	Bir nechta chipta bo'lganda ro'yxat vertikal siljishi ishlashi	Medium				
+CL-Ch-30	Yakunlangan chipta ko'rinishi	Yakunlangan chiptalar	Ishlatilgan chipta "Yakunlangan" tabda to'g'ri ko'rinishi	High				
+CL-Ch-31	Yakunlangan chipta — holati	Yakunlangan chiptalar	Yakunlangan chipta kulrang yoki "Yakunlangan" belgisi bilan ko'rinishi	Medium				
+CL-Ch-32	Tariflar ro'yxati yuklanishi	Tarif sotib olish	Tariflar nomi, narxi va tavsifi bilan to'g'ri yuklanishi	High				
+CL-Ch-33	Tarif tanlash	Tarif sotib olish	Tarif kartochkasiga bosilganda batafsil sahifa ochilishi	High				
+CL-Ch-34	Tarif sotib olish — balanssiz	Tarif sotib olish	Balans yetarli bo'lmaganda to'ldirish taklif qilinishi	High				
+CL-Ch-35	Tarif sotib olish — muvaffaqiyatli	Tarif sotib olish	Yetarli balans bo'lganda tarif muvaffaqiyatli sotib olinishi	Critical				
+CL-Ch-36	Sotib olingan tarif "Faol" tabda	Tarif sotib olish	Yangi sotib olingan tarif "Faol" tabda ko'rinishi	High				
+CL-Ch-37	Chiptalar sahifasi — vertikal scroll	Chiptalar	Chiptalar sahifasi yuqoridan pastga siljishi ishlashi	Medium				
+CL-Ch-38	Internet yo'q — chiptalar	Chiptalar	Internet yo'q bo'lganda xato xabari ko'rinishi	High				
