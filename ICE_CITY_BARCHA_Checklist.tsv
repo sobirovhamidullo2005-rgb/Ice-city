@@ -42,4 +42,7 @@ CL-Ch-8	Orqaga qaytish	Chiptalar	Strelka bosilganda oldingi sahifaga qaytilishi	
 CL-Pr-1	Profil sahifasi	Profil	Ma'lumotlar korinishi rasm korinishi	High				
 CL-Pr-2	Ma'lumot tahrirlash	Profil	Ozgarishlar saqlanishi bosh ism da xabar korinishi	High				
 CL-Pr-3	Til va chiqish	Profil	Til ozgarganda ekranlar yangilanishi chiqishda Login ekraniga otishi	High				
+CL-Pr-4	Profil rasmi ozgartirish	Profil	Rasm bosilganda galereya ochilishi yangi rasm profilga saqlanishi	Medium				
+CL-Pr-5	Chiqish tasdiqlash	Profil	Ha bosilganda Login ekraniga Yoq bosilganda profilda qolinishi	High				
+CL-Pr-6	Orqaga qaytish	Profil	Strelka bosilganda oldingi sahifaga qaytilishi	High				
 CL-Nt-1	Bildirishnomalar	Bildirishnomalar	Royxat korinishi badge ishlashi xabar bosilganda sahifaga otishi	High				
