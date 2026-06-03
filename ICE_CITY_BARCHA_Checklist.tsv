@@ -2,111 +2,54 @@ Checklist ID	Title	Sub model	Description	Priority	Bugs	Bug type	Status	Notes
 CL-As-1	Ilovani ochish	Asosiy	Ilova ikonkasiga bosilganda ilova muvaffaqiyatli ochilishi	High				
 CL-As-2	Splash screen korinishi	Asosiy	Ilova ochilayotganda ICE CITY logotipi bilan splash screen korinishi	Medium				
 CL-As-3	Internet yoq holati	Asosiy	Internet bolganda foydalanuvchiga tushunarli xabar korinishi	High				
-CL-As-4	Til tanlash	Asosiy	Ozbek yoki Rus tili tanlanganda barcha matnlarning togri ozgarishi	High				
-CL-As-5	Ilova fonga otkazib qaytish	Asosiy	Ilova fonga otkazilib qayta ochilganda sessiya saqlanishi	Medium				
-CL-As-6	Ilovani yopib qayta ochish	Asosiy	Ilova togiq yopilgandan keyin qayta ochilganda login ekrani korinishi	Medium				
+CL-As-4	Ilova hayotiy sikli	Asosiy	Ilova fonga otkazilib qayta ochilganda sessiya saqlanishi va togiq yopilganda login ekrani korinishi	Medium				
 CL-Lo-1	Login sahifa elementlari	Login	Login sahifasida til tanlash telefon maydoni Davom etish tugmasi korinishi	High				
-CL-Lo-2	Telefon togri raqam	Login	+998 formatida 9 xonali raqam kiritilganda qabul qilinishi	High				
-CL-Lo-3	Telefon kam raqam	Login	9 tadan kam raqam kiritilganda xato xabari korinishi	High				
-CL-Lo-4	Telefon faqat raqam	Login	Harflar kiritilganda qabul qilinmasligi	High				
-CL-Lo-5	Davom etish nofaol	Login	Raqam toliq bolmasa tugma bosilmasligi	High				
-CL-Lo-6	Davom etish faol	Login	Toliq raqam kiritilganda tugma kok rangda faollashishi	High				
-CL-Lo-7	SMS ekraniga otish	Login	Davom etish bosilganda SMS ekrani ochilishi	High				
-CL-Sm-1	OTP notogri kod	SMS tasdiqlash	Notogri OTP kiritilganda xato xabari korinishi	High				
-CL-Sm-2	OTP togri kod	SMS tasdiqlash	Togri OTP kiritilganda Royxatdan otish ekrani ochilishi	High				
-CL-Sm-3	OTP avtomatik otish	SMS tasdiqlash	Raqam kiritilganda kursor keyingi maydonga otishi	High				
-CL-Sm-4	OTP faqat raqam	SMS tasdiqlash	OTP maydoniga harf kiritilmasligi	High				
-CL-Sm-5	OTP Backspace	SMS tasdiqlash	Backspace bosilganda kursor oldingi maydonga qaytishi	Medium				
-CL-Sm-6	Qayta yuborish nofaol	SMS tasdiqlash	Hisoblagich 0 bolmaguncha tugma bosilmasligi	Medium				
-CL-Sm-7	Qayta yuborish faol	SMS tasdiqlash	Hisoblagich 0 da tugma faollashib yangi SMS yuborilishi	High				
-CL-Sm-8	Hisoblagich ortga sanashi	SMS tasdiqlash	56 dan 0 gacha ortga sanashi	High				
-CL-Sm-9	Orqaga qaytish	SMS tasdiqlash	Strelka bosilganda Login ekraniga qaytilishi	High				
-CL-Rg-1	Rasm yuklash	Royxatdan otish	Doira bosilganda galereya yoki kamera ochilishi	Medium				
-CL-Rg-2	Rasm korinishi	Royxatdan otish	Tanlangan rasm profil doirasida korinishi	Medium				
-CL-Rg-3	FISH kiritish	Royxatdan otish	Toliq ism kiritilganda qabul qilinishi	High				
-CL-Rg-4	FISH bosh	Royxatdan otish	Bosh qoldirilganda majburiy maydon xabari korinishi	High				
-CL-Rg-5	FISH faqat raqam	Royxatdan otish	Faqat raqamdan iborat qiymat qabul qilinmasligi	Medium				
-CL-Rg-6	Tugilgan sana taqvim	Royxatdan otish	Taqvim ikonasiga bosiganda sana tanlash ochilishi	High				
-CL-Rg-7	Tugilgan sana tanlash	Royxatdan otish	Taqvimdan sana tanlanishi va maydonda korinishi	High				
-CL-Rg-8	Tugilgan sana bosh	Royxatdan otish	Bosh qoldirilganda majburiy maydon xabari korinishi	High				
-CL-Rg-9	Tugilgan sana kelajak	Royxatdan otish	Kelajak sana tanlanmasligi kerak	High				
-CL-Rg-10	Jins Erkak	Royxatdan otish	Erkak bosilganda tanlanishi	High				
-CL-Rg-11	Jins Ayol	Royxatdan otish	Ayol bosilganda tanlanishi	High				
-CL-Rg-12	Jins faqat bitta	Royxatdan otish	Bir vaqtda faqat bitta jins tanlanishi	High				
-CL-Rg-13	Jins bosh	Royxatdan otish	Jins tanlanmasa majburiy maydon xabari korinishi	High				
-CL-Rg-14	Tasdiqlash nofaol	Royxatdan otish	Biror maydon bosh bolsa tugma bosilmasligi	High				
-CL-Rg-15	Tasdiqlash Virtual karta ekraniga otish	Royxatdan otish	Barcha toldirilganda Virtual karta ekraniga otishi	High				
+CL-Lo-2	Telefon raqam kiritish	Login	Togri 9 xonali raqam qabul qilinishi kam raqamda xato korinishi harflar qabul qilinmasligi	High				
+CL-Lo-3	Davom etish tugmasi	Login	Raqam toliq bolmasa nofaol toliq kiritilganda kok rangda faollashishi	High				
+CL-Lo-4	SMS ekraniga otish	Login	Davom etish bosilganda SMS ekrani ochilishi	High				
+CL-Sm-1	OTP kod kiritish	SMS tasdiqlash	Raqam kiritilganda kursor keyingi maydonga otishi faqat raqam qabul qilinishi Backspace ishlashi	High				
+CL-Sm-2	OTP notogri kod	SMS tasdiqlash	Notogri OTP kiritilganda xato xabari korinishi	High				
+CL-Sm-3	OTP togri kod	SMS tasdiqlash	Togri OTP kiritilganda Royxatdan otish ekrani ochilishi	High				
+CL-Sm-4	Qayta yuborish	SMS tasdiqlash	Hisoblagich 56 dan 0 gacha sanashi 0 da tugma faollashib yangi SMS yuborilishi	High				
+CL-Sm-5	Orqaga qaytish	SMS tasdiqlash	Strelka bosilganda Login ekraniga qaytilishi	High				
+CL-Rg-1	Rasm yuklash	Royxatdan otish	Doira bosilganda galereya yoki kamera ochilishi tanlangan rasm doirada korinishi	Medium				
+CL-Rg-2	FISH maydoni	Royxatdan otish	Toliq ism qabul qilinishi bosh qoldirilganda va faqat raqam kiritilganda xabar korinishi	High				
+CL-Rg-3	Tugilgan sana	Royxatdan otish	Taqvimdan sana tanlanishi bosh qoldirilganda xabar korinishi kelajak sana tanlanmasligi	High				
+CL-Rg-4	Jins tanlash	Royxatdan otish	Erkak yoki Ayol tanlanishi bir vaqtda faqat bitta tanlanishi tanlanmasa xabar korinishi	High				
+CL-Rg-5	Tasdiqlash tugmasi	Royxatdan otish	Maydon bosh bolsa nofaol barchasi toldirilganda Virtual karta ekraniga otishi	High				
 CL-Vk-1	Virtual karta elementlar	Virtual karta	Karta toldirish usullari Click Payme Tasdiqlash Keyinroq toldirish korinishi	High				
-CL-Vk-2	Karta Faol emas holati	Virtual karta	Yangi karta qizil Faol emas belgisi bilan korinishi	High				
-CL-Vk-3	Karta balansi minus 10 000	Virtual karta	Abonent tolovi sifatida minus 10 000 som balansi korinishi	High				
-CL-Vk-4	Click tanlash	Virtual karta	Click bosilganda tanlanib Tasdiqlash faollashishi	High				
-CL-Vk-5	Payme tanlash	Virtual karta	Payme bosilganda tanlanib Tasdiqlash faollashishi	High				
-CL-Vk-6	Usulsiz Tasdiqlash nofaol	Virtual karta	Tolov usuli tanlanmasa Tasdiqlash nofaol bolishi	High				
-CL-Vk-7	Click bilan tolov	Virtual karta	Click tanlanganda Tasdiqlash bosilsa Click ilovasi ochilishi	High				
-CL-Vk-8	Payme bilan tolov	Virtual karta	Payme tanlanganda Tasdiqlash bosilsa Payme ilovasi ochilishi	High				
-CL-Vk-9	Keyinroq toldirish	Virtual karta	Keyinroq toldirish bosilganda Home page ochilishi	High				
-CL-Hp-1	Home virtual karta korinishi	Home page	Asosiy ekranda karta holati balansi raqami muddati korinishi	High				
+CL-Vk-2	Karta Faol emas va balansi	Virtual karta	Yangi karta qizil Faol emas belgisi va minus 10 000 som balansi bilan korinishi	High				
+CL-Vk-3	Tolov usuli tanlash	Virtual karta	Click yoki Payme tanlanishi bir vaqtda faqat bittasi tanlanishi tanlanmasa Tasdiqlash nofaol	High				
+CL-Vk-4	Click bilan tolov	Virtual karta	Click tanlanganda Tasdiqlash bosilsa Click ilovasi ochilishi	High				
+CL-Vk-5	Payme bilan tolov	Virtual karta	Payme tanlanganda Tasdiqlash bosilsa Payme ilovasi ochilishi	High				
+CL-Vk-6	Keyinroq toldirish	Virtual karta	Keyinroq toldirish bosilganda Home page ochilishi	High				
+CL-Hp-1	Home asosiy elementlar	Home page	Asosiy ekranda karta holati balansi attraksionlar tezkor havolalar tariflar korinishi	High				
 CL-Hp-2	Home karta bosilganda	Home page	Kartaga bosilganda toldirish ekrani ochilishi	High				
-CL-Hp-3	Home tanga soni	Home page	Yuqori ongda tanga soni togri korinishi	Medium				
-CL-Hp-4	Home bildirishnoma	Home page	Qongiroq ikonasi bosilganda bildirishnomalar sahifasi ochilishi	Medium				
-CL-Hp-5	Home attraksionlar royxati	Home page	Attraksionlar nom narx vaqt togri korinishi	High				
-CL-Hp-6	Home Barchasi tugmasi	Home page	Barchasi bosilganda barcha attraksionlar royxati ochilishi	High				
-CL-Hp-7	Home attraksion kartochkasi	Home page	Attraksion kartochkasiga bosilganda chipta sahifasi ochilishi	High				
-CL-Hp-8	Home tariflar bolimi	Home page	Tariflar bolimi togri korinishi va ishlashi	Medium				
-CL-Hp-9	Home tezkor havolalar scroll	Home page	Tezkor havolalar gorizontal siljishi ishlashi	Medium				
-CL-Hp-10	Home vertikal scroll	Home page	Asosiy sahifa yuqoridan pastga siljishi ishlashi	Medium				
-CL-Hp-11	Bottom nav Balans	Home page	Balans bosilganda Balans sahifasiga otishi	High				
-CL-Hp-12	Bottom nav Chiptalar	Home page	Chiptalar bosilganda Chiptalar sahifasiga otishi	High				
-CL-Hp-13	Bottom nav Profil	Home page	Profil bosilganda Profil sahifasiga otishi	High				
-CL-Ba-1	Balans sahifasiga otish	Balans	Bottom nav dan Balans bosilganda sahifa ochilishi	High				
-CL-Ba-2	Virtual karta korinishi	Balans	Mening kartalarim bolimida virtual karta korinishi	High				
-CL-Ba-3	Balansni toldirish tugmasi	Balans	Balansni toldirish tugmasi bosilganda sahifa ochilishi	High				
-CL-Ba-4	Click bilan toldirish	Balans	Click tanlanganda tolov muvaffaqiyatli otishi	High				
-CL-Ba-5	Payme bilan toldirish	Balans	Payme tanlanganda tolov muvaffaqiyatli otishi	High				
-CL-Ba-6	Minimal summa	Balans	1 000 somdan kam kiritilganda tolov amalga oshmasligi	High				Minimal 1 000 som
-CL-Ba-7	Maksimal summa	Balans	10 000 000 somdan kop kiritilganda tolov amalga oshmasligi	High				Maksimal 10 000 000 som
-CL-Ba-8	Karta qoshish tugmasi	Balans	Qoshish bosilganda karta qoshish oynasi ochilishi	High				
-CL-Ba-9	Virtual karta qoshish	Balans	Virtual karta qoshilganda royxatda korinishi	High				
-CL-Ba-10	Karta ochirish	Balans	Karta ochirish bosilganda tasdiqlanib karta ochirilishi	High				
-CL-Ba-11	Otkazma	Balans	Kartalar orasida otkazma muvaffaqiyatli otishi	High				
-CL-Ba-12	Tarix sahifasi	Balans	Hammasini korish bosilganda tranzaksiyalar tarixi ochilishi	High				
-CL-Ba-13	Tarix filtr karta	Balans	Tarix sahifasida kartalar boyicha filtr ishlashi	High				
-CL-Ba-14	Tarix filtr davr	Balans	Bugun kecha hafta otgan hafta filtrlari ishlashi	High				
-CL-Ch-1	Chiptalar sahifasiga otish	Chiptalar	Bottom nav dan Chiptalar bosilganda sahifa ochilishi	High				
-CL-Ch-2	Faol tab	Chiptalar	Faol bosilganda faol chiptalar korinishi	High				
-CL-Ch-3	Yakunlangan tab	Chiptalar	Yakunlangan bosilganda yakunlangan chiptalar korinishi	High				
-CL-Ch-4	Bosh holat matni	Chiptalar	Chipta yoq bolganda Siz hali chipta sotib olmadingiz matni korinishi	Medium				
-CL-Ch-5	Chipta sotib olish tugmasi	Chiptalar	Tugma bosilganda attraksionlar royxati ochilishi	High				
-CL-Ch-6	Tarif sotib olish tugmasi	Chiptalar	Tugma bosilganda tariflar royxati ochilishi	High				
-CL-Ch-7	Attraksion tanlash	Chipta sotib olish	Attraksion bosilganda batafsil sahifa ochilishi	High				
-CL-Ch-8	Batafsil nomi narxi	Chipta sotib olish	Batafsil sahifada attraksion nomi narxi vaqti korinishi	High				
-CL-Ch-9	Miqdor oshirish kamaytirish	Chipta sotib olish	Plus va minus tugmalari ishlashi miqdor 0 dan pastga tushmasligi	High				
-CL-Ch-10	Umumiy narx hisoblash	Chipta sotib olish	Miqdor ozgarganda umumiy narx togri hisoblanishi	High				
-CL-Ch-11	Sotib olish yetarli balans	Chipta sotib olish	Balans yetarli bolganda chipta muvaffaqiyatli sotib olinishi	High				
-CL-Ch-12	Sotib olish yetarsiz balans	Chipta sotib olish	Balans yetarsiz bolganda toldirish taklif qilinishi	High				
-CL-Ch-13	Karta faol emas	Chipta sotib olish	Karta faol bolmaganda chipta sotib olib bolmasligi	High				
-CL-Ch-14	QR kod korinishi	Chipta sotib olish	Tolovdan keyin chipta QR kodi togri korinishi	High				
-CL-Ch-15	Chipta Faol tabda	Chipta sotib olish	Yangi chipta Faol tabda korinishi	High				
-CL-Ch-16	Chipta kartochkasi	Faol chiptalar	Attraksion nomi sana narx togri korinishi	High				
-CL-Ch-17	Yakunlangan chipta	Yakunlangan chiptalar	Foydalanilgan chipta Yakunlangan tabda korinishi	High				
-CL-At-1	Attraksionlar royxati	Attraksionlar	Barcha attraksionlar nomi narxi davomiyligi bilan korinishi	High				
-CL-At-2	Attraksion batafsil	Attraksionlar	Attraksion bosilganda batafsil ma'lumot sahifasi ochilishi	High				
-CL-At-3	Chipta miqdori tanlash	Attraksionlar	Chipta miqdori oshirish kamaytirish ishlashi	High				
-CL-At-4	Chipta narxi hisob	Attraksionlar	Miqdor ozgarganda umumiy narx togri hisoblanishi	High				
-CL-At-5	Chipta sotib olish	Attraksionlar	Sotib olish bosilganda tolov jarayoni boshlanishi	High				
-CL-At-6	Balanssiz sotib olish	Attraksionlar	Balans yetarli bolmaganda toldirish taklif qilinishi	High				
-CL-At-7	Chipta QR kodi	Attraksionlar	Muvaffaqiyatli tolovdan keyin QR kod chiqarilishi	High				
-CL-Pr-1	Profil sahifasiga otish	Profil	Bottom nav dan Profil bosilganda sahifa ochilishi	High				
-CL-Pr-2	Profil ma'lumotlar korinishi	Profil	Ism telefon tugilgan sana jins ma'lumotlari togri korinishi	High				
-CL-Pr-3	Profil rasmi	Profil	Profil rasmi yoki default avatar korinishi	Medium				
-CL-Pr-4	Rasm ozgartirish	Profil	Rasm bosilganda galereya yoki kamera ochilishi	Medium				
-CL-Pr-5	Ma'lumot tahrirlash	Profil	Profil ma'lumotlari tahrirlanganda ozgarishlar saqlanishi	High				
-CL-Pr-6	Ism bosh qoldirilsa	Profil	Ism bosh qoldirilsa majburiy maydon xabari korinishi	High				
-CL-Pr-7	Til Ozbek	Profil	Ozbek tili tanlanganda barcha ekranlar ozbekchaga ozgarishi	High				
-CL-Pr-8	Til Rus	Profil	Rus tili tanlanganda barcha ekranlar ruscha bolishi	High				
-CL-Pr-9	Chiqish tasdiqlash	Profil	Chiqish bosilganda tasdiqlash oynasi ochilishi	High				
-CL-Pr-10	Chiqish Ha	Profil	Ha bosilganda Login ekraniga qaytilishi	High				
-CL-Pr-11	Chiqish Yoq	Profil	Yoq bosilganda profilda qolinishi	Medium				
-CL-Nt-1	Bildirishnomalar royxati	Bildirishnomalar	Bildirishnomalar sahifasida xabarlar royxati korinishi	High				
-CL-Nt-2	Oqilmagan badge	Bildirishnomalar	Oqilmagan xabar bolganda qongiroq ikonasida badge korinishi	Medium				
-CL-Nt-3	Bildirishnoma bosilganda	Bildirishnomalar	Xabar bosilganda tegishli sahifaga otishi	High				
+CL-Hp-3	Home yuqori panel	Home page	Tanga soni va bildirishnoma ikonasi korinishi bildirishnoma bosilganda sahifa ochilishi	Medium				
+CL-Hp-4	Home attraksionlar	Home page	Attraksionlar nom narx vaqt togri korinishi Barchasi bosilganda royxat ochilishi	High				
+CL-Hp-5	Home attraksion kartochkasi	Home page	Attraksion bosilganda chipta sahifasi ochilishi	High				
+CL-Hp-6	Home tariflar va scroll	Home page	Tariflar bolimi korinishi tezkor havolalar gorizontal sahifa vertikal siljishi ishlashi	Medium				
+CL-Hp-7	Bottom nav	Home page	Balans Chiptalar Profil bosilganda tegishli sahifaga otishi	High				
+CL-Ba-1	Balans sahifasi	Balans	Balans bosilganda sahifa ochilishi virtual karta korinishi	High				
+CL-Ba-2	Balansni toldirish	Balans	Toldirish tugmasi bosilganda sahifa ochilishi Click Payme orqali tolov muvaffaqiyatli otishi	High				
+CL-Ba-3	Tolov summa chegaralari	Balans	1 000 somdan kam kiritilganda amalga oshmasligi 10 000 000 dan kop kiritilganda amalga oshmasligi	High				Minimal 1 000 som Maksimal 10 000 000 som
+CL-Ba-4	Karta boshqaruvi	Balans	Karta qoshish oynasi ochilishi virtual va fizik karta qoshilishi karta ochirilishi	High				
+CL-Ba-5	Otkazma	Balans	Kartalar orasida otkazma muvaffaqiyatli otishi	High				
+CL-Ba-6	Tarix sahifasi	Balans	Hammasini korish bosilganda tranzaksiyalar tarixi ochilishi	High				
+CL-Ba-7	Tarix filtrlari	Balans	Karta boyicha filtr bugun kecha hafta otgan hafta filtrlari ishlashi	High				
+CL-Ch-1	Chiptalar sahifasi	Chiptalar	Chiptalar bosilganda sahifa ochilishi Faol va Yakunlangan tablar ishlashi	High				
+CL-Ch-2	Bosh holat	Chiptalar	Chipta yoq bolganda Siz hali chipta sotib olmadingiz matni korinishi	Medium				
+CL-Ch-3	Chipta sotib olish tugmasi	Chiptalar	Tugma bosilganda attraksionlar royxati ochilishi	High				
+CL-Ch-4	Tarif sotib olish tugmasi	Chiptalar	Tugma bosilganda tariflar royxati ochilishi	High				
+CL-Ch-5	Attraksion tanlash va batafsil	Chipta sotib olish	Attraksion bosilganda batafsil sahifa ochilishi nomi narxi vaqti korinishi	High				
+CL-Ch-6	Chipta miqdori va narxi	Chipta sotib olish	Plus minus tugmalari ishlashi miqdor 0 dan pastga tushmasligi narx togri hisoblanishi	High				
+CL-Ch-7	Chipta sotib olish tolov	Chipta sotib olish	Yetarli balansda muvaffaqiyatli sotib olinishi yetarsizda toldirish taklif qilinishi karta faol emasda bloklanishi	High				
+CL-Ch-8	Chipta QR kodi va Faol tab	Chipta sotib olish	Tolovdan keyin QR kod korinishi chipta Faol tabda korinishi	High				
+CL-Ch-9	Chipta kartochkasi	Faol chiptalar	Attraksion nomi sana narx va QR kod togri korinishi	High				
+CL-Ch-10	Yakunlangan chipta	Yakunlangan chiptalar	Foydalanilgan chipta Yakunlangan tabda korinishi	High				
+CL-Pr-1	Profil sahifasi	Profil	Profil bosilganda sahifa ochilishi ism telefon sana jins ma'lumotlari korinishi	High				
+CL-Pr-2	Profil rasmi	Profil	Profil rasmi yoki default avatar korinishi rasm bosilganda galereya ochilishi	Medium				
+CL-Pr-3	Ma'lumot tahrirlash	Profil	Ma'lumotlar tahrirlanganda ozgarishlar saqlanishi ism bosh qoldirilsa xabar korinishi	High				
+CL-Pr-4	Til tanlash	Profil	Ozbek yoki Rus tili tanlanganda barcha ekranlar mos tilda korinishi	High				
+CL-Pr-5	Chiqish logout	Profil	Chiqish bosilganda tasdiqlash oynasi Ha da Login ekraniga qaytilishi Yoq da profilda qolinishi	High				
+CL-Nt-1	Bildirishnomalar	Bildirishnomalar	Sahifada xabarlar royxati korinishi oqilmagan badge korinishi xabar bosilganda tegishli sahifaga otishi	High				
