@@ -1,0 +1,61 @@
+Checklist ID	Title	Sub model	Description	Priority	Bugs	Bug type	Status	Notes
+CL-Ba-1	Balans sahifasiga o'tish	Balans	Bottom nav dan "Balans" bosilganda balans sahifasi ochilishi	High				
+CL-Ba-2	"Mening kartalarim" sarlavhasi	Balans	"Mening kartalarim" sarlavhasi to'g'ri ko'rinishi	Medium				
+CL-Ba-3	"+ Qo'shish" tugmasi ko'rinishi	Balans	Sarlavha yonida "+ Qo'shish" tugmasi to'g'ri (to'q sariq) rangda ko'rinishi	Medium				
+CL-Ba-4	Virtual karta ko'rinishi	Balans	Kartada "Faol emas" belgisi, balans, karta raqami, muddati to'g'ri ko'rinishi	High				
+CL-Ba-5	Virtual karta — "Faol emas" holati	Balans	Karta faollashtirilmagan bo'lsa "Faol emas" qizil belgisi ko'rinishi	High				
+CL-Ba-6	Virtual karta balansi	Balans	Kartada -10 000 so'm balansi to'g'ri ko'rinishi	High				Abonent to'lovi uchun
+CL-Ba-7	Virtual karta raqami	Balans	"№ 100000267" formatida karta raqami to'g'ri ko'rinishi	High				
+CL-Ba-8	Virtual karta muddati	Balans	"06/2027" amal qilish muddati to'g'ri ko'rinishi	Medium				
+CL-Ba-9	Virtual karta bosilganda	Balans	Kartaga bosilganda karta to'ldirish ekrani ochilishi	High				
+CL-Ba-10	Karta gorizontal scroll	Balans	Bir nechta karta bo'lsa gorizontal siljishi ishlashi	Medium				
+CL-Ba-11	"+ Qo'shish" — bosilganda	Balans	"+ Qo'shish" bosilganda karta qo'shish oynasi ochilishi	High				
+CL-Ba-12	Karta qo'shish — virtual karta	Balans	Virtual kartani tanlanganda virtual karta qo'shilishi	High				
+CL-Ba-13	Karta qo'shish — fizik karta	Balans	Fizik kartani tanlaganda karta raqami kiritish maydoni ochilishi	High				
+CL-Ba-14	Fizik karta — to'g'ri raqam	Balans	To'g'ri 7 xonali karta raqami kiritilganda karta qo'shilishi	High				
+CL-Ba-15	Fizik karta — noto'g'ri raqam	Balans	7 xonadan ko'p yoki kam raqam kiritilganda xato xabari ko'rinishi	High				
+CL-Ba-16	Fizik karta — bo'sh maydon	Balans	Karta raqami kiritilmasa xato xabari ko'rinishi	High				Majburiy maydon
+CL-Ba-17	Karta o'chirish tugmasi	Balans	Kartaning o'ng yuqori burchagidagi tugma bosilganda tasdiqlash oynasi ochilishi	High				
+CL-Ba-18	Karta o'chirish — "Ha"	Balans	"Ha" bosilganda karta ro'yxatdan o'chirilishi	High				
+CL-Ba-19	Karta o'chirish — "Yo'q"	Balans	"Yo'q" bosilganda oyna yopilishi va karta o'chirilmasligi	High				
+CL-Ba-20	"Balansni to'ldirish" tugmasi ko'rinishi	Balans	Gradiyent ko'k "Balansni to'ldirish" tugmasi to'g'ri ko'rinishi	High				
+CL-Ba-21	"Balansni to'ldirish" — bosilganda	Balans	Tugma bosilganda to'ldirish usuli tanlash sahifasi ochilishi	High				
+CL-Ba-22	To'ldirish — Click tanlash	Balans	Click to'lov usuli tanlanishi	High				
+CL-Ba-23	To'ldirish — Payme tanlash	Balans	Payme to'lov usuli tanlanishi	High				
+CL-Ba-24	To'ldirish — summa kiritish maydoni	Balans	Summa kiritish maydoni to'g'ri ko'rinishi va ishlashi	High				
+CL-Ba-25	To'ldirish — minimal summa (1 so'm)	Balans	1 so'm kiritilganda to'lov amalga oshmasligi	High				Minimal: 1 000 so'm
+CL-Ba-26	To'ldirish — minimal summa (1 000 so'm)	Balans	1 000 so'm kiritilganda to'lov amalga oshishi	High				
+CL-Ba-27	To'ldirish — maksimal summa (10 000 000 so'm)	Balans	10 000 000 so'm kiritilganda to'lov amalga oshishi	High				
+CL-Ba-28	To'ldirish — maksimal dan oshiq (100 000 000 so'm)	Balans	100 000 000 so'm kiritilganda to'lov amalga oshmasligi	High				Maksimal: 10 000 000 so'm
+CL-Ba-29	To'ldirish — usulsiz tasdiqlash	Balans	To'lov usuli tanlanmasa "Tasdiqlash" tugmasi nofaol bo'lishi	High				
+CL-Ba-30	To'ldirish — Click muvaffaqiyatli	Balans	Click orqali to'lov muvaffaqiyatli o'tganda balans yangilanishi	Critical				
+CL-Ba-31	To'ldirish — Payme muvaffaqiyatli	Balans	Payme orqali to'lov muvaffaqiyatli o'tganda balans yangilanishi	Critical				
+CL-Ba-32	To'ldirish — "Ha" tasdiqlash	Balans	To'lovni tasdiqlash sahifasida "Ha" bosilganda to'lov amalga oshishi	Critical				
+CL-Ba-33	To'ldirish — "Yo'q" rad etish	Balans	"Yo'q" bosilganda to'ldirish sahifasiga qaytilishi	High				
+CL-Ba-34	To'ldirish — yopish tugmasi	Balans	"Yopish" bosilganda "Mening kartalarim" sahifasiga qaytilishi	High				
+CL-Ba-35	To'ldirish — noto'g'ri PIN kod	Balans	Noto'g'ri PIN kod kiritilganda xato xabari ko'rinishi	High				
+CL-Ba-36	"O'z kartalaringiz orasida o'tkazma" ko'rinishi	O'tkazma	Och ko'k "O'z kartalaringiz orasida o'tkazma" tugmasi to'g'ri ko'rinishi	High				
+CL-Ba-37	O'tkazma — sahifa ochilishi	O'tkazma	Tugma bosilganda o'tkazma sahifasi ochilishi	High				
+CL-Ba-38	O'tkazma — jo'natuvchi karta tanlash	O'tkazma	Jo'natuvchi karta tanlanishi	High				
+CL-Ba-39	O'tkazma — qabul qiluvchi karta tanlash	O'tkazma	Qabul qiluvchi karta tanlanishi	High				
+CL-Ba-40	O'tkazma — minimal summa (1 so'm)	O'tkazma	1 so'm kiritilganda o'tkazma amalga oshmasligi	High				Minimal: 1 000 so'm
+CL-Ba-41	O'tkazma — maksimaldan oshiq	O'tkazma	100 000 000 so'm kiritilganda o'tkazma amalga oshmasligi	High				Maksimal: 10 000 000 so'm
+CL-Ba-42	O'tkazma — muvaffaqiyatli	O'tkazma	To'g'ri summa kiritib "O'tkazish" bosilganda o'tkazma muvaffaqiyatli o'tishi	Critical				
+CL-Ba-43	Tarix — sarlavha ko'rinishi	Tarix	"Tarix" sarlavhasi to'g'ri ko'rinishi	Medium				
+CL-Ba-44	Tarix — "Bugun" guruhi	Tarix	Bugungi tranzaksiyalar "Bugun" sarlavhasi ostida ko'rinishi	High				
+CL-Ba-45	Tarix — sana guruhi	Tarix	O'tgan sanalar bo'yicha (02.06.2026) tranzaksiyalar guruhlanishi	High				
+CL-Ba-46	Tarix — "Bekor qilingan" holati	Tarix	Bekor qilingan tranzaksiya qizil "Bekor qilingan" matni bilan ko'rinishi	High				
+CL-Ba-47	Tarix — "Muvaffaqiyatli" holati	Tarix	Muvaffaqiyatli tranzaksiya yashil "Muvaffaqiyatli" matni bilan ko'rinishi	High				
+CL-Ba-48	Tarix — kirim summasi ko'rinishi	Tarix	Kirim summasi "+" belgisi bilan ko'k rangda ko'rinishi (+1,000 so'm)	High				
+CL-Ba-49	Tarix — chiqim summasi ko'rinishi	Tarix	Chiqim summasi "-" belgisi bilan qora rangda ko'rinishi (-10,000 so'm)	High				
+CL-Ba-50	Tarix — tranzaksiya vaqti	Tarix	Har bir tranzaksiyada vaqt (06:01, 22:02) to'g'ri ko'rinishi	Medium				
+CL-Ba-51	Tarix — karta raqami	Tarix	Tranzaksiyada karta raqami (№ 100000267) to'g'ri ko'rinishi	Medium				
+CL-Ba-52	Tarix — "Hammasini ko'rish" ochilishi	Tarix	"Hammasini ko'rish" bosilganda tarix sahifasi to'liq ochilishi	High				
+CL-Ba-53	Tarix filtr — kartalar bo'yicha	Tarix	Karta tanlanganda faqat o'sha kartaning tranzaksiyalari ko'rinishi	High				
+CL-Ba-54	Tarix filtr — bugun	Tarix	"Bugun" filtri tanlanganda faqat bugungi tranzaksiyalar ko'rinishi	High				
+CL-Ba-55	Tarix filtr — kecha	Tarix	"Kecha" filtri tanlanganda faqat kechagi tranzaksiyalar ko'rinishi	High				
+CL-Ba-56	Tarix filtr — hafta	Tarix	"Hafta" filtri tanlanganda joriy hafta tranzaksiyalari ko'rinishi	High				
+CL-Ba-57	Tarix filtr — o'tgan hafta	Tarix	"O'tgan hafta" filtri tanlanganda o'tgan hafta tranzaksiyalari ko'rinishi	High				
+CL-Ba-58	Tarix filtr — boshlanish > tugash sana	Tarix	Boshlanish sanasi tugash sanasidan katta bo'lganda filtr ishlamasligi	High				
+CL-Ba-59	Tarix — bo'sh holat	Tarix	Tranzaksiya bo'lmaganda "Tarix bo'sh" yoki shunga o'xshash xabar ko'rinishi	Medium				
+CL-Ba-60	Balans — vertikal scroll	Balans	Sahifa yuqoridan pastga to'liq siljishi ishlashi	Medium				
