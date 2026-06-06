@@ -1,0 +1,17 @@
+Checklist ID	Title	Sub model	Description	Priority	Bugs	Bug type	Status	Notes
+CL-Sm-1	Orqaga qaytish tugmasi	SMS tasdiqlash	"‹" tugmasi bosilganda Login ekraniga qaytishi, kiritilgan raqam saqlanib qolishi	High			
+CL-Sm-2	Sarlavha matni	SMS tasdiqlash	"SMS tasdiqlash" matni to'g'ri ko'rinishi	Medium			
+CL-Sm-3	Telefon raqam ko'rinishi	SMS tasdiqlash	Raqamning o'rta qismi yashirilgan formatda ko'rinishi (+99877 ***66)	High			
+CL-Sm-4	4 ta OTP maydon ko'rinishi	SMS tasdiqlash	4 ta alohida maydon ko'rinishi, har biri 1 ta raqam qabul qilishi	High			
+CL-Sm-5	OTP — avtomatik keyingi maydonga o'tish	SMS tasdiqlash	Har bir maydonga raqam kiritilganda kursor keyingi maydonga avtomatik o'tishi	High			
+CL-Sm-6	OTP — faqat raqam qabul qilish	SMS tasdiqlash	Harf va belgilar OTP maydoniga kiritilmasligi	High			
+CL-Sm-7	OTP — Backspace ishlashi	SMS tasdiqlash	Backspace bosilganda kursor oldingi maydonga qaytishi	Medium			
+CL-Sm-8	OTP — noto'g'ri kod	SMS tasdiqlash	Noto'g'ri kod kiritilganda xato xabari ko'rinishi	High			
+CL-Sm-9	OTP — to'g'ri kod	SMS tasdiqlash	To'g'ri 4 xonali kod kiritilganda Ro'yxatdan o'tish ekraniga o'tishi	Critical			
+CL-Sm-10	Qayta yuborish — hisoblagich	SMS tasdiqlash	"Qayta yuborish: 56 sek" hisoblagichi 0 gacha ortga sanashi	High			
+CL-Sm-11	Qayta yuborish — nofaol holat	SMS tasdiqlash	Hisoblagich 0 bo'lmaguncha tugma bosilmasligi	Medium			
+CL-Sm-12	Qayta yuborish — faol holat	SMS tasdiqlash	Hisoblagich 0 ga yetganda tugma faollashishi	Medium			
+CL-Sm-13	Qayta yuborish — SMS kelishi	SMS tasdiqlash	Tugma bosilganda yangi SMS yuborilishi va hisoblagich qayta boshlanishi	High			
+CL-Sm-14	"Davom etish" — 4 raqam kiritilganda faollashishi	SMS tasdiqlash	4 ta raqam to'liq kiritilganda "Davom etish" tugmasi faollashishi	High			
+CL-Sm-15	"Davom etish" — bosilganda	SMS tasdiqlash	Tugma bosilganda Ro'yxatdan o'tish ekraniga o'tishi (kod to'g'ri bo'lsa)	Critical			
+CL-Sm-16	SMS kelmasa yo'riqnoma	SMS tasdiqlash	Uzoq kutishda foydalanuvchiga yo'riqnoma xabari ko'rinishi	Medium			

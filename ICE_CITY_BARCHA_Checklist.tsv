@@ -1,0 +1,36 @@
+Checklist ID	Title	Sub model	Description	Priority	Bugs	Bug type	Status	Notes
+CL-As-1	Ilovani ochish	Asosiy	Ilova ikonkasiga bosilganda muvaffaqiyatli ochilishi	High				
+CL-As-2	Internet yoq	Asosiy	Internet bolganda foydalanuvchiga xabar korinishi	High				
+CL-As-3	Ilova sikli	Asosiy	Fonga otkazilganda sessiya saqlanishi yopilganda login ekrani ochilishi	High				
+CL-Lo-1	Telefon raqam kiritish	Login	Togri 9 xonali raqam qabul qilinishi harflar va kam raqam qabul qilinmasligi	High				
+CL-Lo-2	Davom etish tugmasi	Login	Raqam toliq bolganda SMS ekraniga otishi toliq bolmasa bosilmasligi	High				
+CL-Sm-1	OTP kiritish	SMS tasdiqlash	Raqam kiritilganda keyingi maydonga otishi faqat raqam qabul qilinishi	High				
+CL-Sm-2	OTP tekshirish	SMS tasdiqlash	Notogri kodda kiritish rad etilishi togri kodda Royxatdan otish ekrani ochilishi	High				
+CL-Sm-3	Qayta yuborish	SMS tasdiqlash	Hisoblagich tugaganda tugma faollashib yangi SMS yuborilishi	High				
+CL-Rg-1	Rasm yuklash	Royxatdan otish	Galereya yoki kamera ochilishi tanlangan rasm saqlanishi	High				
+CL-Rg-2	FISH maydoni	Royxatdan otish	Toliq ism qabul qilinishi bosh qoldirilsa va faqat raqam kiritilsa rad etilishi	High				
+CL-Rg-3	Personal Data formga tugilgan sanani kiritib tasdiqlash tugmasini bosish	Royxatdan otish	Taqvimdan sana tanlanishi bosh qoldirilsa va kelajak sana tanlanmasa rad etilishi	High				
+CL-Rg-4	Jins tanlash	Royxatdan otish	Bittasi tanlanishi tanlanmasa tasdiqlash bloklanishi	High				
+CL-Rg-5	Tasdiqlash	Royxatdan otish	Bosh maydon bolganda bloklanishi barchasi toldirilganda Virtual karta ekraniga otishi	High				
+CL-Vk-1	Tolov usuli tanlash	Virtual karta	Click yoki Payme tanlanishi tanlanmasa Tasdiqlash bloklanishi	High				
+CL-Vk-2	Karta faollashtirish	Virtual karta	Click yoki Payme orqali tolov muvaffaqiyatli otishi karta faollashishi	High				
+CL-Vk-3	Keyinroq toldirish	Virtual karta	Bosilganda Home page ochilishi	High				
+CL-Hp-1	Karta bosilganda	Home page	Kartaga bosilganda toldirish ekrani ochilishi	High				
+CL-Hp-2	Attraksion bosilganda	Home page	Attraksion kartochkasiga bosilganda chipta sahifasi ochilishi	High				
+CL-Hp-3	Bottom nav	Home page	Balans Chiptalar Profil bosilganda tegishli sahifaga otishi	High				
+CL-Ba-1	Balansni toldirish	Balans	Click Payme orqali tolov otishi minimal va maksimal summa chegaralari ishlashi	High				Minimal 1 000 Maksimal 10 000 000 som
+CL-Ba-2	Karta qoshish	Balans	Virtual va fizik karta qoshilishi notogri raqamda rad etilishi	High				
+CL-Ba-3	Karta ochirish	Balans	Tasdiqlangandan keyin karta ochirilishi rad etilganda qolishi	High				
+CL-Ba-4	Otkazma	Balans	Kartalar orasida otkazma muvaffaqiyatli otishi summa chegaralari ishlashi	High				
+CL-Ba-5	Tarix filtri	Balans	Karta boyicha va davr boyicha filtrlash ishlashi	High				
+CL-Ch-1	Chipta sotib olish	Chiptalar	Attraksion tanlash miqdor hisoblash tolov muvaffaqiyatli otishi	High				
+CL-Ch-2	Yetarsiz balans	Chiptalar	Balans yetmasa toldirish sahifasiga otishi	High				
+CL-Ch-3	Faol emas karta	Chiptalar	Karta faol bolmaganda chipta sotib olish bloklanishi	High				
+CL-Ch-4	QR kod	Chiptalar	Tolovdan keyin QR kod olinishi	High				
+CL-Ch-5	Chipta holati	Chiptalar	Sotib olingan chipta Faol tabda foydalanilgandan keyin Yakunlangan tabga otishi	High				
+CL-Ch-6	Tarif sotib olish	Chiptalar	Tarif tanlanganda tolov muvaffaqiyatli otishi	High				
+CL-Pr-1	Ma'lumot tahrirlash	Profil	Ozgarishlar serverga saqlanishi bosh ism kiritilsa rad etilishi	High				
+CL-Pr-2	Rasm yuklash	Profil	Yangi rasm tanlanib profilga saqlanishi	High				
+CL-Pr-3	Til ozgartirish	Profil	Til ozgarganda barcha ekranlar yangi tilda ishlashi	High				
+CL-Pr-4	Chiqish	Profil	Tasdiqlangandan keyin sessiya yopilishi Login ekrani ochilishi	High				
+CL-Nt-1	Bildirishnoma bosilganda	Bildirishnomalar	Xabar bosilganda tegishli sahifaga otishi	High				

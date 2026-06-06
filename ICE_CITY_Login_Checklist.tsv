@@ -1,0 +1,15 @@
+Checklist ID	Title	Sub model	Description	Priority	Bugs	Bug type	Status	Notes
+CL-Lo-1	Til tanlash — O'zbek tili	Login	"O'zbek tili" tugmasi bosilganda barcha matnlar o'zbek tiliga o'tishi	High			
+CL-Lo-2	Til tanlash — Russki	Login	"Русский" tugmasi bosilganda barcha matnlar rus tiliga o'tishi	High			
+CL-Lo-3	Til tugmalari ko'rinishi	Login	Faol til oq fonda, nofaol til kulrang fonda ko'rinishi	Medium			
+CL-Lo-4	Sarlavha matni	Login	"Xush kelibsiz!" matni to'g'ri ko'rinishi	Medium			
+CL-Lo-5	Tavsif matni	Login	"Tizimga kirish uchun telefon raqamingizni kiriting" matni to'g'ri ko'rinishi	Medium			
+CL-Lo-6	Telefon maydoni placeholder	Login	"+998 __ __ __ __" placeholder to'g'ri formatda ko'rinishi	High			
+CL-Lo-7	Telefon maydoni — faqat raqam	Login	Harflar kiritilganda qabul qilinmasligi, faqat raqamli klaviatura chiqishi	High			
+CL-Lo-8	Telefon maydoni — to'g'ri format	Login	+998 dan keyin 9 ta raqam kiritilganda format to'g'ri bo'lishi	High			
+CL-Lo-9	Telefon maydoni — noto'g'ri format	Login	9 tadan kam raqam kiritilganda xato xabari ko'rinishi	High			
+CL-Lo-10	Klaviatura avtomatik chiqishi	Login	Telefon maydoniga bosilganda raqamli klaviatura avtomatik chiqishi	Medium			
+CL-Lo-11	"Davom etish" — nofaol holat	Login	Raqam kiritilmagan yoki to'liq bo'lmasa tugma bosilmasligi (kulrang)	High			
+CL-Lo-12	"Davom etish" — faol holat	Login	Raqam to'liq kiritilganda tugma faollashishi (ko'k rang)	High			
+CL-Lo-13	"Davom etish" — bosilganda	Login	Tugma bosilganda SMS tasdiqlash ekraniga o'tishi	Critical			
+CL-Lo-14	Ekran joylashuvi	Login	Barcha elementlar ekranda to'g'ri joylashgan, kesib chiqmagan	Low			

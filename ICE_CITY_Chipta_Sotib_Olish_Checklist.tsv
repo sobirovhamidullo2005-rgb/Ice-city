@@ -1,0 +1,39 @@
+Checklist ID	Title	Sub model	Description	Priority	Bugs	Bug type	Status	Notes
+CL-Cs-1	"Chipta sotib olish" tugmasi ko'rinishi	Chiptalar	"Chipta sotib olish" ko'k tugmasi to'g'ri ko'rinishi	High				
+CL-Cs-2	"Tarif sotib olish" tugmasi ko'rinishi	Chiptalar	"Tarif sotib olish" ko'k tugmasi to'g'ri ko'rinishi	High				
+CL-Cs-3	"Chipta sotib olish" bosilganda	Chiptalar	Tugma bosilganda attraksionlar ro'yxati sahifasi ochilishi	Critical				
+CL-Cs-4	"Tarif sotib olish" bosilganda	Chiptalar	Tugma bosilganda tariflar ro'yxati sahifasi ochilishi	Critical				
+CL-Cs-5	Attraksionlar ro'yxati yuklanishi	Chipta sotib olish	Barcha attraksionlar nomi, narxi, davomiyligi bilan yuklanishi	High				
+CL-Cs-6	Attraksion — "45 minut" belgisi ko'rinishi	Chipta sotib olish	Har bir attraksion kartochkasida vaqt belgisi to'g'ri ko'rinishi	Medium				
+CL-Cs-7	Attraksion — narxi ko'rinishi	Chipta sotib olish	Attraksion narxi (55 000 so'm, 50 000 so'm) to'g'ri ko'rinishi	High				
+CL-Cs-8	Attraksion — nomi ko'rinishi	Chipta sotib olish	Attraksion nomi (Frozen Lake, Speed Skat) to'g'ri ko'rinishi	High				
+CL-Cs-9	Attraksion — tavsifi ko'rinishi	Chipta sotib olish	Attraksion qisqacha tavsifi to'g'ri ko'rinishi	Medium				
+CL-Cs-10	Attraksion — rasmi yuklanishi	Chipta sotib olish	Attraksion rasmi to'g'ri yuklanishi	Medium				
+CL-Cs-11	Attraksionlar gorizontal scroll	Chipta sotib olish	Attraksionlar ro'yxati gorizontal siljishi ishlashi	Medium				
+CL-Cs-12	Attraksion kartochkasi bosilganda	Chipta sotib olish	Kartochkaga bosilganda attraksion batafsil sahifasi ochilishi	Critical				
+CL-Cs-13	Batafsil — attraksion nomi	Chipta sotib olish	Batafsil sahifada attraksion nomi to'g'ri ko'rinishi	High				
+CL-Cs-14	Batafsil — attraksion rasmi	Chipta sotib olish	Batafsil sahifada attraksion rasmi to'g'ri yuklanishi	Medium				
+CL-Cs-15	Batafsil — narxi ko'rinishi	Chipta sotib olish	Batafsil sahifada bitta chipta narxi to'g'ri ko'rinishi	High				
+CL-Cs-16	Batafsil — davomiyligi ko'rinishi	Chipta sotib olish	Batafsil sahifada vaqt davomiyligi (45 minut) to'g'ri ko'rinishi	Medium				
+CL-Cs-17	Batafsil — to'liq tavsifi	Chipta sotib olish	Batafsil sahifada to'liq tavsif matni ko'rinishi	Medium				
+CL-Cs-18	Chipta miqdori — "+" tugmasi	Chipta sotib olish	"+" bosilganda chipta miqdori 1 ga oshishi	High				
+CL-Cs-19	Chipta miqdori — "-" tugmasi	Chipta sotib olish	"-" bosilganda chipta miqdori 1 ga kamayishi	High				
+CL-Cs-20	Chipta miqdori — 0 dan kam bo'lmasligi	Chipta sotib olish	Miqdor 1 da turgan payt "-" tugmasi nofaol bo'lishi	High				
+CL-Cs-21	Umumiy narx avtomatik hisoblash	Chipta sotib olish	Miqdor o'zgarganda umumiy narx to'g'ri hisoblanishi	High				2 × 55 000 = 110 000 so'm
+CL-Cs-22	"Sotib olish" tugmasi — miqdor 0 da nofaol	Chipta sotib olish	Miqdor 0 bo'lsa "Sotib olish" tugmasi nofaol bo'lishi	High				
+CL-Cs-23	"Sotib olish" tugmasi — miqdor 1+ da faol	Chipta sotib olish	Miqdor 1 va undan ko'p bo'lsa tugma faol (ko'k) bo'lishi	High				
+CL-Cs-24	Sotib olish — yetarli balans	Chipta sotib olish	Balans yetarli bo'lganda to'lov muvaffaqiyatli o'tishi	Critical				
+CL-Cs-25	Sotib olish — yetarsiz balans	Chipta sotib olish	Balans yetarli bo'lmaganda balans to'ldirish taklif qilinishi	High				
+CL-Cs-26	Sotib olish — "Faol emas" karta	Chipta sotib olish	Karta faol bo'lmaganda chipta sotib olib bo'lmasligi va ogohlantirish ko'rinishi	High				
+CL-Cs-27	Muvaffaqiyatli to'lovdan keyin QR kod	Chipta sotib olish	To'lovdan keyin chipta QR kodi ekranda ko'rinishi	Critical				QR kod kirish uchun ishlatiladi
+CL-Cs-28	QR kod aniq ko'rinishi	Chipta sotib olish	QR kod skanerlash uchun yetarli aniqlikda ko'rinishi	Critical				
+CL-Cs-29	Chipta "Faol" tabda ko'rinishi	Chipta sotib olish	Sotib olingan chipta "Chiptalar → Faol" tabda ko'rinishi	High				
+CL-Cs-30	Chipta kartochkasi — attraksion nomi	Chipta sotib olish	Chipta kartochkasida attraksion nomi to'g'ri ko'rinishi	High				
+CL-Cs-31	Chipta kartochkasi — sana va vaqt	Chipta sotib olish	Chipta kartochkasida sotib olingan sana va vaqt to'g'ri ko'rinishi	High				
+CL-Cs-32	Chipta kartochkasi — to'langan narx	Chipta sotib olish	Chipta kartochkasida to'langan narx to'g'ri ko'rinishi	High				
+CL-Cs-33	Chipta kartochkasi — QR kod	Chipta sotib olish	Chipta kartochkasida QR kod to'g'ri ko'rinishi	Critical				
+CL-Cs-34	Chipta batafsil sahifasi	Chipta sotib olish	Chipta kartochkasiga bosilganda batafsil chipta sahifasi ochilishi	High				
+CL-Cs-35	"Yakunlangan" tabga o'tishi	Chipta sotib olish	Foydalanilgan chipta "Yakunlangan" tabda ko'rinishi	High				
+CL-Cs-36	Orqaga qaytish tugmasi	Chipta sotib olish	"‹" tugmasi bosilganda oldingi sahifaga qaytilishi	High				
+CL-Cs-37	Internet yo'q holati	Chipta sotib olish	Internet yo'q bo'lganda xato xabari ko'rinishi	High				
+CL-Cs-38	Sahifa vertikal scroll	Chipta sotib olish	Attraksionlar ro'yxati sahifasi vertikal siljishi ishlashi	Medium				

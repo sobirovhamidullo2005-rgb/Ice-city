@@ -1,0 +1,24 @@
+Checklist ID	Title	Sub model	Description	Priority	Bugs	Bug type	Status	Notes
+CL-Rg-1	Orqaga qaytish tugmasi	Ro'yxatdan o'tish	"‹" tugmasi bosilganda SMS ekraniga qaytishi	High			
+CL-Rg-2	Sarlavha matni	Ro'yxatdan o'tish	"Ro'yxatdan o'tish" matni to'g'ri ko'rinishi	Medium			
+CL-Rg-3	Rasm yuklash doirasi ko'rinishi	Ro'yxatdan o'tish	"+" ikonasi bilan doira to'g'ri ko'rinishi	Medium			
+CL-Rg-4	Rasm yuklash — bosilganda	Ro'yxatdan o'tish	Doira bosilganda galereya yoki kamera tanlash oynasi ochilishi	High			
+CL-Rg-5	Rasm yuklash — rasm tanlash	Ro'yxatdan o'tish	Rasm tanlanganda profil doirasida ko'rinishi	High			
+CL-Rg-6	Rasm yuklash — ruxsat so'rash	Ro'yxatdan o'tish	Galereya ruxsati to'g'ri tarzda so'ralishi	Medium			Android/iOS ruxsat tizimi
+CL-Rg-7	F.I.Sh maydoni ko'rinishi	Ro'yxatdan o'tish	"F.I.Sh" placeholder bilan maydon to'g'ri ko'rinishi	High			
+CL-Rg-8	F.I.Sh — to'g'ri kiritish	Ro'yxatdan o'tish	To'liq ism familiya kiritilganda qabul qilinishi	High			
+CL-Rg-9	F.I.Sh — bo'sh qoldirilsa	Ro'yxatdan o'tish	Bo'sh qoldirilganda xato xabari ko'rinishi	High			Majburiy maydon
+CL-Rg-10	F.I.Sh — faqat raqam	Ro'yxatdan o'tish	Faqat raqamdan iborat qiymat qabul qilinmasligi	Medium			
+CL-Rg-11	Tug'ilgan sana maydoni ko'rinishi	Ro'yxatdan o'tish	"Tug'ilgan sana" placeholder va taqvim ikonasi to'g'ri ko'rinishi	High			
+CL-Rg-12	Tug'ilgan sana — taqvim ochilishi	Ro'yxatdan o'tish	Taqvim ikonasiga bosiganda sana tanlash taqvimi ochilishi	High			
+CL-Rg-13	Tug'ilgan sana — tanlash	Ro'yxatdan o'tish	Taqvimdan sana tanlab bo'lganda maydonda ko'rinishi	High			Format: KK.OO.YYYY
+CL-Rg-14	Tug'ilgan sana — bo'sh qoldirilsa	Ro'yxatdan o'tish	Bo'sh qoldirilganda xato xabari ko'rinishi	High			Majburiy maydon
+CL-Rg-15	Tug'ilgan sana — kelajak sana	Ro'yxatdan o'tish	Kelajak sana tanlanmasligi kerak	High			
+CL-Rg-16	Jins — "Erkak" tanlanishi	Ro'yxatdan o'tish	"Erkak" radio tugmasi bosilganda tanlanishi	High			
+CL-Rg-17	Jins — "Ayol" tanlanishi	Ro'yxatdan o'tish	"Ayol" radio tugmasi bosilganda tanlanishi	High			
+CL-Rg-18	Jins — faqat bittasi tanlanishi	Ro'yxatdan o'tish	Bir vaqtda faqat bitta jins tanlanishi mumkin bo'lishi	High			
+CL-Rg-19	Jins — bo'sh qoldirilsa	Ro'yxatdan o'tish	Jins tanlanmasa xato xabari ko'rinishi	High			Majburiy maydon
+CL-Rg-20	"Tasdiqlash" — nofaol holat	Ro'yxatdan o'tish	Biror maydon bo'sh bo'lsa tugma bosilmasligi	High			
+CL-Rg-21	"Tasdiqlash" — faol holat	Ro'yxatdan o'tish	Barcha maydonlar to'ldirilganda tugma faollashishi (ko'k rang)	High			
+CL-Rg-22	"Tasdiqlash" — bosilganda	Ro'yxatdan o'tish	Ma'lumotlar saqlangandan keyin Virtual karta ekraniga o'tishi	Critical			
+CL-Rg-23	Ma'lumotlar serverga yuborilishi	Ro'yxatdan o'tish	F.I.Sh, sana, jins, rasm serverga to'g'ri yuborilishi	Critical			API tekshiruvi

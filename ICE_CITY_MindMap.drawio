@@ -1,0 +1,209 @@
+<mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+  <root>
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+
+    <!-- MARKAZ -->
+    <mxCell id="2" value="ICE CITY ILOVA" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0066CC;fontColor=#ffffff;strokeColor=#0066CC;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="640" y="480" width="200" height="80" as="geometry"/>
+    </mxCell>
+
+    <!-- LOGIN - chap yuqori -->
+    <mxCell id="10" value="LOGIN" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6600;fontColor=#ffffff;strokeColor=#FF6600;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="200" y="160" width="140" height="50" as="geometry"/>
+    </mxCell>
+    <mxCell id="e10" edge="1" source="2" target="10" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <mxCell id="11" value="Telefon raqam kiritish" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE0CC;strokeColor=#FF6600;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="30" y="110" width="160" height="36" as="geometry"/>
+    </mxCell>
+    <mxCell id="e11" edge="1" source="10" target="11" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <mxCell id="12" value="Davom etish tugmasi" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE0CC;strokeColor=#FF6600;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="30" y="156" width="160" height="36" as="geometry"/>
+    </mxCell>
+    <mxCell id="e12" edge="1" source="10" target="12" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <mxCell id="13" value="SMS OTP tasdiqlash" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE0CC;strokeColor=#FF6600;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="30" y="202" width="160" height="36" as="geometry"/>
+    </mxCell>
+    <mxCell id="e13" edge="1" source="10" target="13" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <mxCell id="14" value="Qayta yuborish" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE0CC;strokeColor=#FF6600;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="30" y="248" width="160" height="36" as="geometry"/>
+    </mxCell>
+    <mxCell id="e14" edge="1" source="10" target="14" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <!-- ROYXATDAN OTISH - chap pastki -->
+    <mxCell id="20" value="ROYXATDAN OTISH" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9900CC;fontColor=#ffffff;strokeColor=#9900CC;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="160" y="560" width="170" height="50" as="geometry"/>
+    </mxCell>
+    <mxCell id="e20" edge="1" source="2" target="20" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <mxCell id="21" value="Rasm yuklash" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F0D0FF;strokeColor=#9900CC;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="20" y="500" width="130" height="36" as="geometry"/>
+    </mxCell>
+    <mxCell id="e21" edge="1" source="20" target="21" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <mxCell id="22" value="FISH maydoni" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F0D0FF;strokeColor=#9900CC;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="20" y="546" width="130" height="36" as="geometry"/>
+    </mxCell>
+    <mxCell id="e22" edge="1" source="20" target="22" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <mxCell id="23" value="Tugilgan sana" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F0D0FF;strokeColor=#9900CC;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="20" y="592" width="130" height="36" as="geometry"/>
+    </mxCell>
+    <mxCell id="e23" edge="1" source="20" target="23" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <mxCell id="24" value="Jins tanlash" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F0D0FF;strokeColor=#9900CC;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="20" y="638" width="130" height="36" as="geometry"/>
+    </mxCell>
+    <mxCell id="e24" edge="1" source="20" target="24" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <mxCell id="25" value="Tasdiqlash tugmasi" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F0D0FF;strokeColor=#9900CC;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="20" y="684" width="130" height="36" as="geometry"/>
+    </mxCell>
+    <mxCell id="e25" edge="1" source="20" target="25" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <!-- VIRTUAL KARTA - ong yuqori -->
+    <mxCell id="30" value="VIRTUAL KARTA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CC0000;fontColor=#ffffff;strokeColor=#CC0000;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="1080" y="160" width="160" height="50" as="geometry"/>
+    </mxCell>
+    <mxCell id="e30" edge="1" source="2" target="30" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <mxCell id="31" value="Karta ochish" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFD0D0;strokeColor=#CC0000;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="1080" y="110" width="160" height="36" as="geometry"/>
+    </mxCell>
+    <mxCell id="e31" edge="1" source="30" target="31" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <mxCell id="32" value="Click bilan tolov" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFD0D0;strokeColor=#CC0000;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="1080" y="156" width="160" height="36" as="geometry"/>
+    </mxCell>
+    <mxCell id="e32" edge="1" source="30" target="32" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <mxCell id="33" value="Payme bilan tolov" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFD0D0;strokeColor=#CC0000;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="1080" y="202" width="160" height="36" as="geometry"/>
+    </mxCell>
+    <mxCell id="e33" edge="1" source="30" target="33" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <mxCell id="34" value="Keyinroq toldirish" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFD0D0;strokeColor=#CC0000;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="1080" y="248" width="160" height="36" as="geometry"/>
+    </mxCell>
+    <mxCell id="e34" edge="1" source="30" target="34" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <!-- BALANS - ong pastki -->
+    <mxCell id="40" value="BALANS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#006600;fontColor=#ffffff;strokeColor=#006600;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="1100" y="500" width="140" height="50" as="geometry"/>
+    </mxCell>
+    <mxCell id="e40" edge="1" source="2" target="40" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <mxCell id="41" value="Balansni toldirish" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D0FFD0;strokeColor=#006600;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="1100" y="430" width="160" height="36" as="geometry"/>
+    </mxCell>
+    <mxCell id="e41" edge="1" source="40" target="41" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <mxCell id="42" value="Karta qoshish va ochirish" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D0FFD0;strokeColor=#006600;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="1100" y="560" width="160" height="36" as="geometry"/>
+    </mxCell>
+    <mxCell id="e42" edge="1" source="40" target="42" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <mxCell id="43" value="Otkazma" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D0FFD0;strokeColor=#006600;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="1100" y="606" width="160" height="36" as="geometry"/>
+    </mxCell>
+    <mxCell id="e43" edge="1" source="40" target="43" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <mxCell id="44" value="Tarix va filtr" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D0FFD0;strokeColor=#006600;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="1100" y="652" width="160" height="36" as="geometry"/>
+    </mxCell>
+    <mxCell id="e44" edge="1" source="40" target="44" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <mxCell id="45" value="Summa chegaralari" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D0FFD0;strokeColor=#006600;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="1100" y="698" width="160" height="36" as="geometry"/>
+    </mxCell>
+    <mxCell id="e45" edge="1" source="40" target="45" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <!-- CHIPTALAR - pastda markaz -->
+    <mxCell id="50" value="CHIPTALAR" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CC6600;fontColor=#ffffff;strokeColor=#CC6600;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="640" y="700" width="160" height="50" as="geometry"/>
+    </mxCell>
+    <mxCell id="e50" edge="1" source="2" target="50" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <mxCell id="51" value="Chipta sotib olish" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE8CC;strokeColor=#CC6600;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="480" y="780" width="150" height="36" as="geometry"/>
+    </mxCell>
+    <mxCell id="e51" edge="1" source="50" target="51" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <mxCell id="52" value="Tarif sotib olish" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE8CC;strokeColor=#CC6600;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="480" y="826" width="150" height="36" as="geometry"/>
+    </mxCell>
+    <mxCell id="e52" edge="1" source="50" target="52" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <mxCell id="53" value="QR kod" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE8CC;strokeColor=#CC6600;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="480" y="872" width="150" height="36" as="geometry"/>
+    </mxCell>
+    <mxCell id="e53" edge="1" source="50" target="53" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <mxCell id="54" value="Faol va Yakunlangan" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE8CC;strokeColor=#CC6600;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="480" y="918" width="150" height="36" as="geometry"/>
+    </mxCell>
+    <mxCell id="e54" edge="1" source="50" target="54" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <mxCell id="55" value="Yetarsiz balans" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE8CC;strokeColor=#CC6600;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="650" y="800" width="150" height="36" as="geometry"/>
+    </mxCell>
+    <mxCell id="e55" edge="1" source="50" target="55" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <mxCell id="56" value="Faol emas karta" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE8CC;strokeColor=#CC6600;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="650" y="846" width="150" height="36" as="geometry"/>
+    </mxCell>
+    <mxCell id="e56" edge="1" source="50" target="56" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <!-- PROFIL - chap pastki -->
+    <mxCell id="60" value="PROFIL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#006699;fontColor=#ffffff;strokeColor=#006699;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="360" y="700" width="140" height="50" as="geometry"/>
+    </mxCell>
+    <mxCell id="e60" edge="1" source="2" target="60" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <mxCell id="61" value="Malumot tahrirlash" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCE8FF;strokeColor=#006699;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="200" y="760" width="150" height="36" as="geometry"/>
+    </mxCell>
+    <mxCell id="e61" edge="1" source="60" target="61" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <mxCell id="62" value="Rasm yuklash" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCE8FF;strokeColor=#006699;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="200" y="806" width="150" height="36" as="geometry"/>
+    </mxCell>
+    <mxCell id="e62" edge="1" source="60" target="62" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <mxCell id="63" value="Til ozgartirish" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCE8FF;strokeColor=#006699;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="200" y="852" width="150" height="36" as="geometry"/>
+    </mxCell>
+    <mxCell id="e63" edge="1" source="60" target="63" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <mxCell id="64" value="Chiqish logout" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCE8FF;strokeColor=#006699;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="200" y="898" width="150" height="36" as="geometry"/>
+    </mxCell>
+    <mxCell id="e64" edge="1" source="60" target="64" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <!-- BILDIRISHNOMALAR - ong o'rta -->
+    <mxCell id="70" value="BILDIRISHNOMALAR" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#555555;fontColor=#ffffff;strokeColor=#555555;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="940" y="340" width="170" height="50" as="geometry"/>
+    </mxCell>
+    <mxCell id="e70" edge="1" source="2" target="70" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <mxCell id="71" value="Royxat korinishi" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0E0E0;strokeColor=#555555;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="950" y="270" width="150" height="36" as="geometry"/>
+    </mxCell>
+    <mxCell id="e71" edge="1" source="70" target="71" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <mxCell id="72" value="Badge ishlashi" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0E0E0;strokeColor=#555555;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="950" y="406" width="150" height="36" as="geometry"/>
+    </mxCell>
+    <mxCell id="e72" edge="1" source="70" target="72" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <mxCell id="73" value="Sahifaga otish" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0E0E0;strokeColor=#555555;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="950" y="452" width="150" height="36" as="geometry"/>
+    </mxCell>
+    <mxCell id="e73" edge="1" source="70" target="73" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+  </root>
+</mxGraphModel>
