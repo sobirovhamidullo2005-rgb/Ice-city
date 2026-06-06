@@ -9,7 +9,7 @@ CL-Sm-2	OTP tekshirish	SMS tasdiqlash	Notogri kodda kiritish rad etilishi togri 
 CL-Sm-3	Qayta yuborish	SMS tasdiqlash	Hisoblagich tugaganda tugma faollashib yangi SMS yuborilishi	High				
 CL-Rg-1	Rasm yuklash	Royxatdan otish	Galereya yoki kamera ochilishi tanlangan rasm saqlanishi	High				
 CL-Rg-2	FISH maydoni	Royxatdan otish	Toliq ism qabul qilinishi bosh qoldirilsa va faqat raqam kiritilsa rad etilishi	High				
-CL-Rg-3	Tugilgan sana	Royxatdan otish	Taqvimdan sana tanlanishi bosh qoldirilsa va kelajak sana tanlanmasa rad etilishi	High				
+CL-Rg-3	Personal Data formga tugilgan sanani kiritib tasdiqlash tugmasini bosish	Royxatdan otish	Taqvimdan sana tanlanishi bosh qoldirilsa va kelajak sana tanlanmasa rad etilishi	High				
 CL-Rg-4	Jins tanlash	Royxatdan otish	Bittasi tanlanishi tanlanmasa tasdiqlash bloklanishi	High				
 CL-Rg-5	Tasdiqlash	Royxatdan otish	Bosh maydon bolganda bloklanishi barchasi toldirilganda Virtual karta ekraniga otishi	High				
 CL-Vk-1	Tolov usuli tanlash	Virtual karta	Click yoki Payme tanlanishi tanlanmasa Tasdiqlash bloklanishi	High				
